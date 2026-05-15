@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Territorio Huanca · 5 variantes de diseño</title>
+  <meta name="description" content="Cinco interpretaciones visuales de la homepage de Territorio Huanca: misma estructura, distinto lenguaje gráfico, tipografía y motion." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23d4a534' d='M12 2L2 22h20L12 2z'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0e0e10;
+      --bg-2: #16161a;
+      --line: rgba(255,255,255,0.08);
+      --ink: #f3f1ec;
+      --ink-2: #a8a59c;
+      --ink-3: #6a6760;
+      --accent: #d4a534;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      font-size: 16px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; }
+    .wrap { max-width: 1280px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 48px); }
+
+    /* HEADER */
+    header.top {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 28px 0 24px;
+      border-bottom: 1px solid var(--line);
+    }
+    .back {
+      display: inline-flex; align-items: center; gap: 10px;
+      color: var(--ink-2); text-decoration: none;
+      font-size: 14px; letter-spacing: 0.04em;
+      transition: color .2s ease;
+    }
+    .back:hover { color: var(--ink); }
+    .badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--ink-3); border: 1px solid var(--line);
+      padding: 6px 12px; border-radius: 999px;
+    }
+
+    /* HERO */
+    .hero { padding: clamp(60px, 12vh, 140px) 0 clamp(40px, 8vh, 80px); }
+    .hero h1 {
+      font-family: 'Fraunces', serif;
+      font-weight: 400;
+      font-size: clamp(40px, 7vw, 88px);
+      line-height: 1.02;
+      letter-spacing: -0.02em;
+      margin: 0 0 28px;
+      max-width: 920px;
+    }
+    .hero h1 em { font-style: italic; color: var(--accent); }
+    .hero p {
+      max-width: 640px;
+      font-size: clamp(15px, 1.5vw, 18px);
+      color: var(--ink-2);
+      margin: 0 0 32px;
+    }
+    .meta {
+      display: flex; gap: 32px; flex-wrap: wrap;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--ink-3);
+    }
+    .meta strong { color: var(--ink); font-weight: 500; }
+
+    /* GRID */
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      padding: 24px 0 80px;
+    }
+    @media (min-width: 768px) {
+      .grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+    }
+    @media (min-width: 1100px) {
+      .grid { grid-template-columns: repeat(3, 1fr); gap: 32px; }
+    }
+    .card {
+      position: relative;
+      background: var(--bg-2);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      transition: border-color .35s ease, transform .35s cubic-bezier(.2,.6,.2,1);
+      display: flex; flex-direction: column;
+      text-decoration: none; color: inherit;
+    }
+    .card:hover { transform: translateY(-4px); border-color: rgba(255,255,255,0.18); }
+    .card:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+
+    .preview {
+      aspect-ratio: 16/10;
+      position: relative;
+      overflow: hidden;
+      display: grid; place-items: center;
+      isolation: isolate;
+    }
+    .preview .num {
+      font-family: 'Fraunces', serif;
+      font-style: italic;
+      font-size: clamp(80px, 14vw, 160px);
+      color: rgba(255,255,255,0.06);
+      position: absolute; bottom: -20px; right: -10px;
+      z-index: 0; line-height: 1;
+    }
+    .preview .label {
+      position: relative; z-index: 1;
+      text-align: center; padding: 0 20px;
+    }
+    .preview .label small {
+      display: block;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
+      margin-bottom: 12px;
+      opacity: 0.7;
+    }
+    .preview .label strong {
+      display: block;
+      font-family: 'Fraunces', serif;
+      font-weight: 400;
+      font-size: clamp(22px, 2.4vw, 28px);
+      line-height: 1.1;
+    }
+
+    .body { padding: 24px 26px 28px; }
+    .body p {
+      color: var(--ink-2);
+      font-size: 14.5px;
+      margin: 0 0 18px;
+      line-height: 1.55;
+    }
+    .swatches {
+      display: flex; gap: 6px;
+      margin-bottom: 18px;
+    }
+    .swatches span {
+      width: 22px; height: 22px; border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .tags {
+      display: flex; gap: 14px; flex-wrap: wrap;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--ink-3);
+    }
+    .cta {
+      margin-top: 20px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 13.5px; letter-spacing: 0.05em;
+      color: var(--ink-2);
+      transition: color .25s ease;
+    }
+    .cta span { color: var(--accent); }
+    .card:hover .cta { color: var(--ink); }
+
+    /* PREVIEW STYLES PER VARIANT */
+    .p1 { background: linear-gradient(135deg, #07080a 0%, #1f242b 100%); color: #f5ecd6; }
+    .p1 .label small { color: #d4a534; }
+    .p2 { background: linear-gradient(135deg, #fafaf6 0%, #f5f0e8 100%); color: #0e0e0e; }
+    .p2 .num { color: rgba(0,0,0,0.06); }
+    .p2 .label small { color: #6b6b6b; }
+    .p3 { background: linear-gradient(135deg, #0e1f1a 0%, #1a4d3a 60%, #ff5722 220%); color: #f4f1ec; }
+    .p3 .label small { color: #fde047; }
+    .p4 { background: linear-gradient(135deg, #f4ebd7 0%, #e8c789 70%, #c66338 200%); color: #2d1810; }
+    .p4 .num { color: rgba(0,0,0,0.08); }
+    .p4 .label small { color: #a14424; }
+    .p5 { background:
+      radial-gradient(60% 60% at 20% 10%, rgba(52,168,245,0.4), transparent 70%),
+      radial-gradient(60% 60% at 80% 30%, rgba(156,92,246,0.4), transparent 70%),
+      radial-gradient(50% 50% at 50% 90%, rgba(236,72,153,0.3), transparent 70%),
+      linear-gradient(135deg, #0a0e27 0%, #131945 100%);
+      color: #f8fafc;
+    }
+    .p5 .label small { color: #34a8f5; }
+
+    footer.bot {
+      border-top: 1px solid var(--line);
+      padding: 32px 0 48px;
+      color: var(--ink-3);
+      font-size: 13px;
+      letter-spacing: 0.04em;
+    }
+    footer.bot a { color: var(--ink-2); }
+
+    /* Animations */
+    .card { opacity: 0; transform: translateY(16px); }
+    .card.in { opacity: 1; transform: translateY(0); transition: opacity .6s ease, transform .6s cubic-bezier(.2,.6,.2,1); }
+    @media (prefers-reduced-motion: reduce) {
+      .card { opacity: 1; transform: none; }
+      .card:hover { transform: none; }
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a class="back" href="../index.html">← Volver al clon</a>
+      <span class="badge">Estudio · 05 variantes</span>
+    </header>
+
+    <section class="hero">
+      <h1>Cinco maneras de contar el mismo <em>territorio</em>.</h1>
+      <p>Misma agencia, mismas fotos, misma estructura. Cinco lenguajes visuales radicalmente distintos. Una exploración de cuánto cambia la percepción de un mismo producto cuando se varía solo el envoltorio: tipografía, color, motion y composición.</p>
+      <div class="meta">
+        <span><strong>5</strong> · variantes</span>
+        <span><strong>1</strong> · estructura común</span>
+        <span><strong>0</strong> · frameworks</span>
+        <span><strong>100%</strong> · standalone HTML</span>
+      </div>
+    </section>
+
+    <section class="grid" role="list">
+
+      <a class="card" href="variante-1.html" role="listitem">
+        <div class="preview p1">
+          <div class="label"><small>01 · Premium</small><strong>Oscuro cinemático</strong></div>
+          <div class="num">I</div>
+        </div>
+        <div class="body">
+          <p>Negros profundos, oro viejo y tipografía Cinzel. Vibe de catálogo Aman/Conrad: silencio visual, mucho aire y un cursor dorado que sigue la mirada.</p>
+          <div class="swatches">
+            <span style="background:#07080a"></span>
+            <span style="background:#16191f"></span>
+            <span style="background:#d4a534"></span>
+            <span style="background:#f1c668"></span>
+            <span style="background:#f5ecd6"></span>
+          </div>
+          <div class="tags"><span>Cinzel · Inter</span><span>Sepia + grano</span></div>
+          <div class="cta">Abrir variante <span>→</span></div>
+        </div>
+      </a>
+
+      <a class="card" href="variante-2.html" role="listitem">
+        <div class="preview p2">
+          <div class="label"><small>02 · Editorial</small><strong>Minimalista claro</strong></div>
+          <div class="num">II</div>
+        </div>
+        <div class="body">
+          <p>Papel blanco roto, Fraunces variable y disciplina tipográfica de revista impresa. Tours en grayscale que vuelven a color al hover, layout asimétrico tipo pliego.</p>
+          <div class="swatches">
+            <span style="background:#fafaf6;border-color:#0001"></span>
+            <span style="background:#f5f0e8"></span>
+            <span style="background:#0e0e0e"></span>
+            <span style="background:#6b6b6b"></span>
+            <span style="background:#8b6e4f"></span>
+          </div>
+          <div class="tags"><span>Fraunces · Inter</span><span>Magazine grid</span></div>
+          <div class="cta">Abrir variante <span>→</span></div>
+        </div>
+      </a>
+
+      <a class="card" href="variante-3.html" role="listitem">
+        <div class="preview p3">
+          <div class="label"><small>03 · Outdoor</small><strong>Aventura vibrante</strong></div>
+          <div class="num">III</div>
+        </div>
+        <div class="body">
+          <p>Verde bosque, naranja fuego y tipografía bold condensada. Badges de altitud/nivel, clip-paths agresivos y parallax al estilo Patagonia/GoPro.</p>
+          <div class="swatches">
+            <span style="background:#0e1f1a"></span>
+            <span style="background:#1a4d3a"></span>
+            <span style="background:#ff5722"></span>
+            <span style="background:#ffa500"></span>
+            <span style="background:#fde047"></span>
+          </div>
+          <div class="tags"><span>Bebas · Manrope</span><span>Tilt + parallax</span></div>
+          <div class="cta">Abrir variante <span>→</span></div>
+        </div>
+      </a>
+
+      <a class="card" href="variante-4.html" role="listitem">
+        <div class="preview p4">
+          <div class="label"><small>04 · Folk</small><strong>Andino cálido</strong></div>
+          <div class="num">IV</div>
+        </div>
+        <div class="body">
+          <p>Lana cruda, terracota y oro inca. Tipografía Playfair con drop caps, dividers SVG con motivos andinos sutiles y curvas orgánicas en cada esquina.</p>
+          <div class="swatches">
+            <span style="background:#f4ebd7;border-color:#0002"></span>
+            <span style="background:#ecd9b3"></span>
+            <span style="background:#c66338"></span>
+            <span style="background:#6b3019"></span>
+            <span style="background:#d6a437"></span>
+          </div>
+          <div class="tags"><span>Playfair · Karla</span><span>Textil andino</span></div>
+          <div class="cta">Abrir variante <span>→</span></div>
+        </div>
+      </a>
+
+      <a class="card" href="variante-5.html" role="listitem">
+        <div class="preview p5">
+          <div class="label"><small>05 · Tech</small><strong>Glassmorphism moderno</strong></div>
+          <div class="num">V</div>
+        </div>
+        <div class="body">
+          <p>Azul nocturno, cyan y violeta. Gradient mesh animado de fondo, cards de cristal con backdrop blur y metadata en monospace. Linear/Vercel para turismo.</p>
+          <div class="swatches">
+            <span style="background:#0a0e27"></span>
+            <span style="background:#131945"></span>
+            <span style="background:#34a8f5"></span>
+            <span style="background:#9c5cf6"></span>
+            <span style="background:#ec4899"></span>
+          </div>
+          <div class="tags"><span>Space Grotesk · JetBrains Mono</span><span>Glass + glow</span></div>
+          <div class="cta">Abrir variante <span>→</span></div>
+        </div>
+      </a>
+
+    </section>
+
+    <footer class="bot">
+      Cinco interpretaciones · misma estructura · misma agencia real <a href="https://www.territoriohuanca.com/" target="_blank" rel="noopener">Territorio Huanca</a>.<br/>
+      Estudio de variantes · 2026 · <a href="https://github.com/eljack69/territoriohuanca-clon" target="_blank" rel="noopener">eljack69/territoriohuanca-clon</a>
+    </footer>
+  </div>
+
+  <script>
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((e, i) => {
+          if (e.isIntersecting) {
+            setTimeout(() => e.target.classList.add('in'), i * 80);
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      document.querySelectorAll('.card').forEach(c => io.observe(c));
+    } else {
+      document.querySelectorAll('.card').forEach(c => c.classList.add('in'));
+    }
+  </script>
+</body>
+</html>

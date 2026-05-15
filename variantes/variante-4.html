@@ -1,0 +1,1095 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Territorio Huanca — Tejido entre cordilleras · Turismo Andes Centrales</title>
+<meta name="description" content="Agencia de turismo en Huancayo. Tours por los Andes Centrales del Perú: Cañón de Shutjo, Huancaya, Tarma, Ayacucho. Operador MINCETUR." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Karla:wght@300;400;500;600;700&display=swap" />
+<style>
+/* ============================================================
+   TERRITORIO HUANCA — Variante 4 · Folk Andino Cálido
+   Paleta: lana cruda, paja, maíz seco, terracota, arcilla,
+   cuero, sombra marrón, oro inca, verde quina.
+   ============================================================ */
+
+:root{
+  --lana:#f4ebd7;
+  --paja:#ecd9b3;
+  --maiz:#e8c789;
+  --terracota:#c66338;
+  --arcilla:#a14424;
+  --cuero:#6b3019;
+  --sombra:#2d1810;
+  --oro:#d6a437;
+  --quina:#4a6741;
+  --tinta:#3a2a1c;
+  --papel:#fbf6e9;
+
+  --serif:'Playfair Display', Georgia, 'Times New Roman', serif;
+  --sans:'Karla', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --ease-folk:cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  --r-orgnc:14px;
+  --maxw:1200px;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+html,body{margin:0;padding:0}
+body{
+  font-family:var(--sans);
+  color:var(--tinta);
+  background:var(--lana);
+  font-size:16px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+  /* textura sutil de papel hecho a mano */
+  background-image:
+    radial-gradient(at 15% 22%, rgba(214,164,55,0.06) 0, transparent 40%),
+    radial-gradient(at 82% 64%, rgba(198,99,56,0.05) 0, transparent 38%),
+    radial-gradient(at 50% 95%, rgba(74,103,65,0.04) 0, transparent 45%);
+}
+
+img{max-width:100%;display:block;height:auto}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:0;background:none}
+
+:focus-visible{
+  outline:2px dashed var(--arcilla);
+  outline-offset:4px;
+  border-radius:6px;
+}
+
+/* ---------- Tipografía ---------- */
+.serif{font-family:var(--serif)}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:600;color:var(--cuero);line-height:1.15;margin:0}
+h1{font-size:clamp(2.4rem, 6vw, 4.6rem);letter-spacing:-0.01em}
+h2{font-size:clamp(1.9rem, 4vw, 3rem);letter-spacing:-0.005em}
+h3{font-size:1.4rem}
+p{margin:0 0 1rem}
+.lead{font-size:1.125rem;line-height:1.7;max-width:62ch}
+.italic{font-style:italic}
+.eyebrow{
+  font-family:var(--sans);
+  text-transform:uppercase;
+  letter-spacing:0.32em;
+  font-size:0.72rem;
+  color:var(--arcilla);
+  font-weight:600;
+  display:inline-flex;
+  align-items:center;
+  gap:0.7rem;
+}
+.eyebrow::before, .eyebrow::after{
+  content:"";
+  width:28px;height:1px;background:var(--arcilla);opacity:0.45;
+}
+.eyebrow.left::after{display:none}
+.eyebrow.left::before{display:none}
+.eyebrow.left{display:inline-block}
+
+/* drop cap */
+.dropcap::first-letter{
+  font-family:var(--serif);
+  font-style:italic;
+  float:left;
+  font-size:5.2rem;
+  line-height:0.85;
+  padding:0.4rem 0.7rem 0 0;
+  color:var(--terracota);
+  font-weight:600;
+}
+
+.container{
+  width:min(100%, var(--maxw));
+  margin-inline:auto;
+  padding-inline:clamp(1.1rem, 4vw, 2.4rem);
+}
+
+/* ---------- Divider andino SVG ---------- */
+.divisor-andino{
+  display:block;
+  width:100%;
+  height:28px;
+  color:var(--arcilla);
+  opacity:0.55;
+}
+.divisor-andino.centrado{max-width:340px;margin:1.4rem auto}
+
+/* ---------- NAV ---------- */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:50;
+  padding:1rem 0;
+  background:rgba(244,235,215,0.78);
+  backdrop-filter:saturate(140%) blur(8px);
+  -webkit-backdrop-filter:saturate(140%) blur(8px);
+  border-bottom:1px solid transparent;
+  transition:background 0.4s var(--ease-folk), border-color 0.4s var(--ease-folk), padding 0.4s var(--ease-folk);
+}
+.nav.scrolled{
+  background:rgba(251,246,233,0.96);
+  border-bottom-color:rgba(107,48,25,0.14);
+  padding:0.6rem 0;
+}
+.nav .row{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:1.4rem;
+}
+.brand{
+  display:flex;align-items:center;gap:0.7rem;
+  font-family:var(--serif);
+  color:var(--cuero);
+  font-weight:600;
+  font-size:1.05rem;
+}
+.brand img{width:38px;height:38px;border-radius:50%;background:var(--papel);padding:3px;box-shadow:0 2px 8px rgba(107,48,25,0.12)}
+.brand small{display:block;font-family:var(--sans);font-size:0.62rem;letter-spacing:0.28em;text-transform:uppercase;color:var(--arcilla);font-weight:600;margin-top:2px}
+.nav ul{
+  list-style:none;display:flex;gap:1.6rem;margin:0;padding:0;
+  font-size:0.92rem;font-weight:500;
+}
+.nav ul a{position:relative;padding:0.3rem 0;color:var(--tinta)}
+.nav ul a::after{
+  content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;
+  background:var(--terracota);
+  transform:scaleX(0);transform-origin:left;
+  transition:transform 0.4s var(--ease-folk);
+}
+.nav ul a:hover::after{transform:scaleX(1)}
+.cta-wa{
+  display:inline-flex;align-items:center;gap:0.5rem;
+  background:var(--quina);
+  color:var(--papel);
+  padding:0.65rem 1.15rem;
+  border-radius:999px;
+  font-weight:600;
+  font-size:0.88rem;
+  transition:transform 0.4s var(--ease-folk), background 0.4s var(--ease-folk), box-shadow 0.4s var(--ease-folk);
+  box-shadow:0 2px 0 rgba(45,24,16,0.18);
+}
+.cta-wa:hover{transform:translateY(-2px);background:#3d5635;box-shadow:0 6px 14px rgba(45,24,16,0.22)}
+.cta-wa svg{width:16px;height:16px}
+
+.menu-btn{
+  display:none;width:42px;height:42px;border-radius:50%;
+  background:var(--paja);color:var(--cuero);
+  align-items:center;justify-content:center;
+}
+.menu-btn svg{width:20px;height:20px}
+
+@media (max-width:880px){
+  .nav ul{display:none}
+  .nav ul.open{
+    display:flex;flex-direction:column;gap:0.9rem;
+    position:absolute;top:100%;left:0;right:0;
+    background:var(--papel);padding:1.3rem 1.5rem;
+    border-top:1px solid rgba(107,48,25,0.12);
+  }
+  .menu-btn{display:inline-flex}
+  .cta-wa span{display:none}
+  .cta-wa{padding:0.55rem 0.75rem}
+}
+
+/* ---------- HERO ---------- */
+.hero{
+  position:relative;
+  padding:140px 0 60px;
+  overflow:hidden;
+}
+.hero-grid{
+  display:grid;
+  grid-template-columns:1.05fr 0.95fr;
+  gap:clamp(1.4rem, 4vw, 3.4rem);
+  align-items:center;
+}
+.hero-text .eyebrow{margin-bottom:1.5rem}
+.hero-text h1{
+  color:var(--sombra);
+  margin-bottom:1.5rem;
+}
+.hero-text h1 .ital{font-style:italic;color:var(--terracota);font-weight:500;display:block}
+.hero-text p.lead{
+  color:var(--cuero);
+  margin-bottom:2rem;
+  max-width:48ch;
+}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:0.9rem;margin-bottom:2rem}
+.btn{
+  display:inline-flex;align-items:center;gap:0.55rem;
+  padding:0.95rem 1.6rem;
+  font-family:var(--sans);
+  font-weight:600;
+  font-size:0.94rem;
+  border-radius:999px;
+  transition:transform 0.5s var(--ease-folk), box-shadow 0.5s var(--ease-folk), background 0.4s var(--ease-folk);
+  letter-spacing:0.01em;
+}
+.btn-primary{
+  background:var(--terracota);color:var(--papel);
+  box-shadow:0 3px 0 var(--arcilla);
+}
+.btn-primary:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 8px 18px rgba(161,68,36,0.28), 0 3px 0 var(--arcilla)}
+.btn-ghost{
+  background:transparent;color:var(--cuero);
+  border:1.5px solid var(--cuero);
+}
+.btn-ghost:hover{background:var(--cuero);color:var(--papel);transform:translateY(-2px)}
+
+.hero-meta{
+  display:flex;gap:2.2rem;flex-wrap:wrap;
+  font-size:0.86rem;color:var(--cuero);
+  border-top:1px solid rgba(107,48,25,0.18);
+  padding-top:1.4rem;
+}
+.hero-meta b{font-family:var(--serif);font-size:1.5rem;color:var(--terracota);display:block;line-height:1;margin-bottom:0.2rem}
+
+.hero-photo{
+  position:relative;
+  aspect-ratio:4/5;
+  border-radius:6px;
+  overflow:hidden;
+  box-shadow:0 24px 60px -20px rgba(45,24,16,0.45);
+}
+.hero-photo img{
+  width:100%;height:100%;object-fit:cover;
+  transform:scale(1.05);
+  transition:transform 1.4s var(--ease-folk);
+}
+.hero-photo:hover img{transform:scale(1.12)}
+.hero-photo::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg, transparent 55%, rgba(45,24,16,0.4) 100%);
+  pointer-events:none;
+}
+.hero-tag{
+  position:absolute;left:1.2rem;bottom:1.2rem;
+  font-family:var(--serif);font-style:italic;
+  color:var(--papel);
+  font-size:1.05rem;
+  text-shadow:0 1px 4px rgba(0,0,0,0.4);
+  max-width:80%;
+}
+.hero-tag::before{content:"❝ ";color:var(--oro);font-size:1.4rem}
+
+/* hero ornament cinta andina vertical */
+.cinta{
+  position:absolute;top:120px;right:-10px;width:34px;height:60vh;
+  pointer-events:none;opacity:0.35;
+  color:var(--arcilla);
+}
+@media (max-width:900px){.cinta{display:none}}
+
+@media (max-width:780px){
+  .hero{padding:120px 0 40px}
+  .hero-grid{grid-template-columns:1fr;gap:2rem}
+  .hero-photo{aspect-ratio:5/4;max-width:560px}
+}
+
+/* ---------- Reveal mask "cortina" ---------- */
+.reveal{
+  opacity:0;
+  transform:translateY(22px);
+  clip-path:inset(0 100% 0 0);
+  transition:opacity 0.9s var(--ease-folk), transform 0.9s var(--ease-folk), clip-path 1.1s var(--ease-folk);
+}
+.reveal.in{opacity:1;transform:translateY(0);clip-path:inset(0 0 0 0)}
+
+/* ---------- Sección genérica ---------- */
+section{padding:clamp(3.4rem, 7vw, 6.4rem) 0;position:relative}
+.sec-head{
+  text-align:center;
+  max-width:680px;margin:0 auto 3rem;
+}
+.sec-head h2{margin:1rem 0 0.9rem}
+.sec-head p{color:var(--cuero);font-size:1.04rem}
+
+/* ---------- TOURS ---------- */
+.tours{background:var(--papel);position:relative}
+.tours::before, .tours::after{
+  content:"";position:absolute;left:0;right:0;height:14px;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 14'><path d='M0 14 L10 0 L20 14 L30 0 L40 14 L50 0 L60 14 Z' fill='%23ecd9b3'/></svg>");
+  background-size:60px 14px;
+  background-repeat:repeat-x;
+}
+.tours::before{top:0;transform:rotate(180deg)}
+.tours::after{bottom:0}
+
+.tour-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+  gap:1.6rem;
+}
+.tour-card{
+  background:var(--lana);
+  border-radius:var(--r-orgnc);
+  overflow:hidden;
+  position:relative;
+  transition:transform 0.5s var(--ease-folk), box-shadow 0.5s var(--ease-folk);
+  border:1px solid rgba(107,48,25,0.08);
+  display:flex;flex-direction:column;
+}
+.tour-card::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(135deg, rgba(214,164,55,0.0) 0%, rgba(214,164,55,0.07) 100%);
+  border-radius:inherit;z-index:1;
+}
+.tour-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 22px 38px -18px rgba(45,24,16,0.35);
+}
+.tour-img{
+  aspect-ratio:4/3;overflow:hidden;position:relative;
+  background:var(--paja);
+}
+.tour-img img{
+  width:100%;height:100%;object-fit:cover;
+  transition:transform 1s var(--ease-folk), filter 1s var(--ease-folk);
+  filter:saturate(0.95) contrast(1.02);
+}
+.tour-card:hover .tour-img img{transform:scale(1.08);filter:saturate(1.08)}
+.tour-num{
+  position:absolute;top:0.9rem;left:0.9rem;z-index:2;
+  background:var(--papel);
+  color:var(--cuero);
+  width:42px;height:42px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--serif);font-style:italic;font-size:1.15rem;font-weight:600;
+  box-shadow:0 4px 10px rgba(45,24,16,0.25);
+}
+.tour-body{
+  padding:1.4rem 1.4rem 1.5rem;
+  display:flex;flex-direction:column;gap:0.55rem;
+  z-index:2;position:relative;
+}
+.tour-body h3{font-size:1.35rem;color:var(--sombra)}
+.tour-body p{font-size:0.95rem;color:var(--cuero);margin:0;line-height:1.55}
+.tour-foot{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-top:0.9rem;padding-top:0.9rem;
+  border-top:1px dashed rgba(107,48,25,0.22);
+}
+.precio{font-family:var(--serif);font-size:1.25rem;color:var(--terracota);font-weight:600}
+.precio small{font-size:0.72rem;color:var(--cuero);font-family:var(--sans);font-weight:500;display:block;line-height:1;margin-bottom:2px}
+.tour-link{
+  display:inline-flex;align-items:center;gap:0.4rem;
+  font-size:0.85rem;font-weight:600;color:var(--arcilla);
+  transition:gap 0.4s var(--ease-folk);
+}
+.tour-link:hover{gap:0.7rem}
+
+/* ---------- SOBRE NOSOTROS ---------- */
+.sobre{background:var(--lana)}
+.sobre-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:clamp(1.6rem, 5vw, 4rem);
+  align-items:center;
+}
+.sobre-img{
+  position:relative;
+  aspect-ratio:5/6;
+  border-radius:6px;overflow:hidden;
+  box-shadow:0 18px 44px -20px rgba(45,24,16,0.45);
+}
+.sobre-img img{width:100%;height:100%;object-fit:cover}
+.sobre-img::before{
+  content:"";position:absolute;inset:0;
+  border:8px solid var(--papel);
+  pointer-events:none;
+  outline:1px solid rgba(107,48,25,0.18);
+  outline-offset:-9px;
+}
+.sobre-text p{color:var(--cuero);font-size:1.04rem;line-height:1.85;text-align:justify;hyphens:auto}
+.stats{
+  display:grid;grid-template-columns:repeat(3, 1fr);
+  gap:1rem;margin-top:2rem;
+  border-top:1px solid rgba(107,48,25,0.2);
+  padding-top:2rem;
+}
+.stat b{
+  display:block;font-family:var(--serif);font-style:italic;
+  font-size:clamp(2rem, 4vw, 3.2rem);color:var(--terracota);line-height:1;
+  font-weight:600;
+}
+.stat span{font-size:0.82rem;color:var(--cuero);text-transform:uppercase;letter-spacing:0.18em;font-weight:600;display:block;margin-top:0.4rem}
+
+@media (max-width:780px){
+  .sobre-grid{grid-template-columns:1fr}
+  .sobre-img{max-width:480px;margin:0 auto;aspect-ratio:4/5}
+}
+
+/* ---------- DESTINOS ---------- */
+.destinos{background:var(--papel)}
+.destinos-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+  gap:1.1rem;
+}
+.destino{
+  position:relative;
+  aspect-ratio:3/4;
+  border-radius:var(--r-orgnc);
+  overflow:hidden;
+  cursor:pointer;
+  transition:transform 0.6s var(--ease-folk), box-shadow 0.6s var(--ease-folk);
+}
+.destino:hover{transform:translateY(-4px);box-shadow:0 18px 36px -16px rgba(45,24,16,0.35)}
+.destino img{
+  width:100%;height:100%;object-fit:cover;
+  transition:transform 1.2s var(--ease-folk);
+}
+.destino:hover img{transform:scale(1.08)}
+.destino-veil{
+  position:absolute;inset:0;
+  background:linear-gradient(180deg, rgba(45,24,16,0.0) 35%, rgba(45,24,16,0.78) 100%);
+}
+.destino-cap{
+  position:absolute;left:1rem;right:1rem;bottom:0.95rem;
+  color:var(--papel);z-index:2;
+}
+.destino-cap small{display:block;font-size:0.7rem;text-transform:uppercase;letter-spacing:0.28em;color:var(--oro);margin-bottom:0.3rem}
+.destino-cap h3{color:var(--papel);font-family:var(--serif);font-style:italic;font-size:1.4rem;font-weight:500}
+/* placeholder cards */
+.destino-placeholder{
+  background:linear-gradient(160deg, var(--paja), var(--maiz));
+  display:flex;align-items:center;justify-content:center;
+  position:relative;
+}
+.destino-placeholder .ph-inner{
+  text-align:center;color:var(--cuero);padding:1rem;z-index:2;position:relative;
+}
+.destino-placeholder .ph-inner h3{
+  font-family:var(--serif);font-style:italic;color:var(--cuero);font-size:1.6rem;font-weight:600;
+}
+.destino-placeholder small{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.3em;color:var(--arcilla);display:block;margin-bottom:0.5rem;font-weight:600}
+.destino-placeholder svg{width:48px;height:48px;color:var(--arcilla);opacity:0.7;margin-bottom:0.8rem;display:block;margin-inline:auto}
+
+/* ---------- POR QUÉ ELEGIRNOS ---------- */
+.porque{background:var(--lana)}
+.porque-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+  gap:1.4rem;
+}
+.feat{
+  background:var(--papel);
+  padding:2rem 1.6rem;
+  border-radius:var(--r-orgnc);
+  text-align:center;
+  border:1px solid rgba(107,48,25,0.1);
+  transition:transform 0.5s var(--ease-folk), box-shadow 0.5s var(--ease-folk);
+  position:relative;
+}
+.feat:hover{transform:translateY(-5px);box-shadow:0 18px 36px -18px rgba(45,24,16,0.3)}
+.feat-icn{
+  width:64px;height:64px;border-radius:50%;
+  background:var(--maiz);
+  display:inline-flex;align-items:center;justify-content:center;
+  color:var(--cuero);margin-bottom:1.1rem;
+  position:relative;
+}
+.feat-icn svg{width:30px;height:30px}
+.feat-icn::after{
+  content:"";position:absolute;inset:-6px;border-radius:50%;
+  border:1px dashed rgba(107,48,25,0.4);
+}
+.feat h3{font-size:1.1rem;margin-bottom:0.5rem;color:var(--sombra)}
+.feat p{font-size:0.92rem;color:var(--cuero);margin:0;line-height:1.55}
+
+/* ---------- CONTACTO ---------- */
+.contacto{
+  background:var(--sombra);
+  color:var(--lana);
+  position:relative;
+  overflow:hidden;
+}
+.contacto::before{
+  content:"";position:absolute;inset:0;
+  background:
+    radial-gradient(at 20% 30%, rgba(198,99,56,0.18) 0, transparent 40%),
+    radial-gradient(at 80% 80%, rgba(214,164,55,0.12) 0, transparent 45%);
+  pointer-events:none;
+}
+.contacto .container{position:relative}
+.contacto h2{color:var(--lana)}
+.contacto .eyebrow{color:var(--oro)}
+.contacto .eyebrow::before, .contacto .eyebrow::after{background:var(--oro);opacity:0.5}
+.contacto-grid{
+  display:grid;
+  grid-template-columns:1.1fr 0.9fr;
+  gap:clamp(2rem, 5vw, 4rem);
+  align-items:start;
+}
+.contacto-text p{color:rgba(244,235,215,0.78);max-width:48ch;font-size:1.04rem;line-height:1.8}
+.info-list{list-style:none;padding:0;margin:2rem 0 0;display:grid;gap:1.1rem}
+.info-list li{display:flex;gap:1rem;align-items:flex-start}
+.info-icn{
+  flex:0 0 44px;height:44px;border-radius:50%;
+  background:rgba(214,164,55,0.16);
+  display:inline-flex;align-items:center;justify-content:center;color:var(--oro);
+}
+.info-icn svg{width:20px;height:20px}
+.info-list small{display:block;font-size:0.7rem;text-transform:uppercase;letter-spacing:0.26em;color:var(--oro);margin-bottom:0.2rem;font-weight:600}
+.info-list a, .info-list span{color:var(--lana);font-size:1rem}
+.info-list a:hover{color:var(--oro)}
+
+.contacto-card{
+  background:rgba(244,235,215,0.06);
+  border:1px solid rgba(214,164,55,0.22);
+  border-radius:var(--r-orgnc);
+  padding:2rem;
+  backdrop-filter:blur(4px);
+}
+.contacto-card h3{color:var(--lana);font-style:italic;margin-bottom:0.8rem}
+.contacto-card p{font-size:0.95rem;color:rgba(244,235,215,0.72)}
+.contacto-card .btn{margin-top:1rem;width:100%;justify-content:center}
+.social-row{display:flex;gap:0.7rem;margin-top:1.5rem}
+.social-row a{
+  width:42px;height:42px;border-radius:50%;
+  background:rgba(214,164,55,0.12);
+  display:inline-flex;align-items:center;justify-content:center;
+  color:var(--oro);transition:background 0.4s var(--ease-folk), transform 0.4s var(--ease-folk);
+}
+.social-row a:hover{background:var(--oro);color:var(--sombra);transform:translateY(-3px)}
+.social-row svg{width:18px;height:18px}
+
+@media (max-width:780px){.contacto-grid{grid-template-columns:1fr}}
+
+/* ---------- FOOTER ---------- */
+footer{
+  background:var(--cuero);
+  color:rgba(244,235,215,0.78);
+  padding:2.4rem 0 2rem;
+  font-size:0.88rem;
+}
+footer .row{
+  display:flex;flex-wrap:wrap;gap:1.4rem;
+  justify-content:space-between;align-items:center;
+}
+footer .brand{color:var(--papel)}
+footer .brand small{color:var(--oro)}
+footer p{margin:0}
+footer .mini{font-size:0.78rem;opacity:0.7}
+
+/* ---------- Patrones decorativos ---------- */
+.greca{
+  position:absolute;left:0;right:0;height:18px;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 18'><path fill='none' stroke='%23a14424' stroke-width='1.4' stroke-linejoin='miter' d='M0 14 L6 14 L6 8 L12 8 L12 4 L18 4 L18 8 L24 8 L24 14 L30 14 L30 8 L36 8 L36 4 L42 4 L42 8 L48 8'/></svg>");
+  background-size:48px 18px;background-repeat:repeat-x;
+  opacity:0.5;
+}
+
+/* reduced motion */
+@media (prefers-reduced-motion: reduce){
+  *{animation:none !important;transition-duration:0.001s !important}
+  .reveal{opacity:1;transform:none;clip-path:none}
+  .hero-photo img{transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<header class="nav" id="nav">
+  <div class="container row">
+    <a href="#inicio" class="brand" aria-label="Territorio Huanca, inicio">
+      <img src="../assets/logo-territorio-huanca.svg" alt="" />
+      <span>Territorio Huanca<small>Andes Centrales · Perú</small></span>
+    </a>
+    <nav aria-label="Principal">
+      <ul id="navList">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#tours">Tours</a></li>
+        <li><a href="#nacional">Paquetes Nacional</a></li>
+        <li><a href="#internacional">Paquetes Internacional</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div style="display:flex;align-items:center;gap:0.6rem">
+      <a class="cta-wa" href="https://wa.me/51988443492" target="_blank" rel="noopener" aria-label="WhatsApp Territorio Huanca">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.81 11.81 0 0 1 8.413 3.488 11.823 11.823 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.683 5.527l-.999 3.648 3.805-.874z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="inicio">
+  <!-- cinta andina decorativa vertical -->
+  <svg class="cinta" viewBox="0 0 34 600" aria-hidden="true" preserveAspectRatio="none">
+    <g fill="none" stroke="currentColor" stroke-width="1.4">
+      <path d="M17 0 L17 600"/>
+      <path d="M5 30 L17 18 L29 30 L17 42 Z"/>
+      <path d="M5 110 L17 98 L29 110 L17 122 Z"/>
+      <path d="M5 190 L17 178 L29 190 L17 202 Z"/>
+      <path d="M5 270 L17 258 L29 270 L17 282 Z"/>
+      <path d="M5 350 L17 338 L29 350 L17 362 Z"/>
+      <path d="M5 430 L17 418 L29 430 L17 442 Z"/>
+      <path d="M5 510 L17 498 L29 510 L17 522 Z"/>
+    </g>
+  </svg>
+
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <span class="eyebrow reveal">Tejido entre cordilleras</span>
+        <h1 class="reveal">
+          El corazón de los Andes
+          <span class="ital">te espera, viajero.</span>
+        </h1>
+        <p class="lead reveal">
+          Somos una agencia huancaína que acompaña a quienes desean descubrir
+          el Perú profundo: lagunas turquesa de Nor Yauyos, cañones que el viento
+          esculpe, pueblos que aún narran su historia en quechua. Diseñamos rutas
+          con respeto y con tiempo.
+        </p>
+        <div class="hero-ctas reveal">
+          <a class="btn btn-primary" href="#tours">Ver nuestros tours →</a>
+          <a class="btn btn-ghost" href="#contacto">Conversemos</a>
+        </div>
+        <div class="hero-meta reveal">
+          <div><b>10+</b><span>años recorriendo la sierra</span></div>
+          <div><b>500+</b><span>viajeros acompañados</span></div>
+          <div><b>25+</b><span>destinos vivos</span></div>
+        </div>
+      </div>
+      <figure class="hero-photo reveal" aria-label="Paisaje andino de la región Junín">
+        <img src="../assets/Tour-Huancaya.jpg" alt="Lagunas turquesa de Huancaya, en la sierra central del Perú" loading="eager" />
+        <figcaption class="hero-tag">Huancaya, donde el agua aprende a ser cielo.</figcaption>
+      </figure>
+    </div>
+
+    <svg class="divisor-andino centrado" viewBox="0 0 320 24" aria-hidden="true">
+      <g fill="none" stroke="currentColor" stroke-width="1.2">
+        <line x1="0" y1="12" x2="120" y2="12"/>
+        <path d="M125 12 L135 4 L145 12 L155 20 L165 12"/>
+        <path d="M170 12 L180 4 L190 12 L200 20 L210 12"/>
+        <line x1="215" y1="12" x2="320" y2="12"/>
+      </g>
+    </svg>
+  </div>
+</section>
+
+<!-- ========== TOURS ========== -->
+<section class="tours" id="tours">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Paquetes turísticos Huancayo</span>
+      <h2>Rutas que tejen<br/><em class="italic">memoria y montaña</em></h2>
+      <p>Seis recorridos curados con guías locales certificados por MINCETUR.
+        Cada uno con la pausa necesaria para mirar bien.</p>
+    </div>
+
+    <div class="tour-grid">
+
+      <article class="tour-card reveal">
+        <div class="tour-img">
+          <span class="tour-num">i</span>
+          <img src="../assets/Canon-de-shutjo.jpg" alt="Cañón de Shutjo, formación rocosa natural en Junín" loading="lazy" />
+        </div>
+        <div class="tour-body">
+          <h3>Cañón de Shutjo</h3>
+          <p>Aventura en el cañón natural de Junín, donde el río ha labrado paredes de piedra durante siglos.</p>
+          <div class="tour-foot">
+            <span class="precio"><small>Desde</small>S/ 85</span>
+            <a class="tour-link" href="#contacto">Reservar →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="tour-card reveal">
+        <div class="tour-img">
+          <span class="tour-num">ii</span>
+          <img src="../assets/Tour-Huancaya.jpg" alt="Lagunas turquesa de Huancaya en la Reserva Nor Yauyos" loading="lazy" />
+        </div>
+        <div class="tour-body">
+          <h3>Tour Huancaya</h3>
+          <p>Lagunas turquesa de Nor Yauyos, cascadas escalonadas y caminos de piedra entre andenes.</p>
+          <div class="tour-foot">
+            <span class="precio"><small>Desde</small>S/ 120</span>
+            <a class="tour-link" href="#contacto">Reservar →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="tour-card reveal">
+        <div class="tour-img">
+          <span class="tour-num">iii</span>
+          <img src="../assets/Tour-Cascada-el-Leon-Villa-Rica-001.jpg" alt="Cascada El León en Villa Rica, selva alta peruana" loading="lazy" />
+        </div>
+        <div class="tour-body">
+          <h3>Villa Rica · Cascada El León</h3>
+          <p>Selva alta y cafetales aromáticos, el descenso suave de los Andes hacia la ceja de selva.</p>
+          <div class="tour-foot">
+            <span class="precio"><small>Desde</small>S/ 220</span>
+            <a class="tour-link" href="#contacto">Reservar →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="tour-card reveal">
+        <div class="tour-img">
+          <span class="tour-num">iv</span>
+          <img src="../assets/Tour-Tarma-Perla-de-Los-Andes-002.jpg" alt="Valle florido de Tarma, conocida como la Perla de los Andes" loading="lazy" />
+        </div>
+        <div class="tour-body">
+          <h3>Tarma · Perla de los Andes</h3>
+          <p>Valles floridos y la Gruta de Guagapo, una de las cavernas más profundas de Sudamérica.</p>
+          <div class="tour-foot">
+            <span class="precio"><small>Desde</small>S/ 95</span>
+            <a class="tour-link" href="#contacto">Reservar →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="tour-card reveal">
+        <div class="tour-img">
+          <span class="tour-num">v</span>
+          <img src="../assets/Arwaturo.jpg" alt="Mirador andino de Arwaturo, pueblo ancestral en Junín" loading="lazy" />
+        </div>
+        <div class="tour-body">
+          <h3>Arwaturo</h3>
+          <p>Mirador andino y pueblo ancestral donde aún se construye con piedra y barro de la tierra.</p>
+          <div class="tour-foot">
+            <span class="precio"><small>Desde</small>S/ 70</span>
+            <a class="tour-link" href="#contacto">Reservar →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="tour-card reveal">
+        <div class="tour-img">
+          <span class="tour-num">vi</span>
+          <img src="../assets/Ayacucho.jpg" alt="Ayacucho, ciudad de las 33 iglesias coloniales" loading="lazy" />
+        </div>
+        <div class="tour-body">
+          <h3>Ayacucho</h3>
+          <p>La ciudad de las 33 iglesias, su Semana Santa, sus retablos y la sabiduría que cargan sus calles.</p>
+          <div class="tour-foot">
+            <span class="precio"><small>Desde</small>S/ 280</span>
+            <a class="tour-link" href="#contacto">Reservar →</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== SOBRE NOSOTROS ========== -->
+<section class="sobre" id="nosotros">
+  <div class="container">
+    <div class="sobre-grid">
+      <figure class="sobre-img reveal">
+        <img src="../assets/Construcciones-de-piedra-Arwuaturo.jpg" alt="Construcciones de piedra en Arwaturo, herencia andina viva" loading="lazy" />
+      </figure>
+      <div class="sobre-text reveal">
+        <span class="eyebrow left">Sobre Nosotros</span>
+        <h2 style="margin:1.2rem 0">Una agencia<br/><em class="italic">nacida en Huancayo.</em></h2>
+        <p class="dropcap">
+          Crecimos entre ferias dominicales, lana de oveja y caminos de herradura.
+          Desde hace más de una década organizamos viajes por la sierra central
+          con un compromiso que aprendimos de nuestras abuelas: respetar a la tierra
+          y a quien la habita. Trabajamos con guías de la zona, transportistas
+          formales y comunidades anfitrionas que reciben parte directa del precio
+          de cada paquete.
+        </p>
+        <p>
+          Si buscas una agencia que entienda los Andes como hogar y no como postal,
+          este es tu lugar.
+        </p>
+        <div class="stats">
+          <div class="stat"><b>10+</b><span>Años de ruta</span></div>
+          <div class="stat"><b>500+</b><span>Viajeros felices</span></div>
+          <div class="stat"><b>25+</b><span>Destinos</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== DESTINOS ========== -->
+<section class="destinos" id="nacional">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Destinos Nacional</span>
+      <h2>Lugares que <em class="italic">nos habitan</em></h2>
+      <p>Selección viva de la sierra y la selva alta peruana, lista para diseñar
+        tu próximo viaje a medida.</p>
+    </div>
+
+    <div class="destinos-grid">
+      <a class="destino reveal" href="#contacto" aria-label="Huancavelica">
+        <img src="../assets/Huancavelica.jpg" alt="Paisaje altoandino de Huancavelica" loading="lazy" />
+        <div class="destino-veil"></div>
+        <div class="destino-cap"><small>Sierra Sur</small><h3>Huancavelica</h3></div>
+      </a>
+      <a class="destino reveal" href="#contacto" aria-label="Mirador Villa Rica">
+        <img src="../assets/Mirador-Villa-Rica-001.jpg" alt="Mirador panorámico de Villa Rica con cafetales" loading="lazy" />
+        <div class="destino-veil"></div>
+        <div class="destino-cap"><small>Selva Alta</small><h3>Mirador Villa Rica</h3></div>
+      </a>
+      <a class="destino reveal" href="#contacto" aria-label="Puente Calicanto">
+        <img src="../assets/Tour-Puente-Calicanto-001.jpg" alt="Puente colonial Calicanto en Junín" loading="lazy" />
+        <div class="destino-veil"></div>
+        <div class="destino-cap"><small>Colonial</small><h3>Puente Calicanto</h3></div>
+      </a>
+
+      <a class="destino destino-placeholder reveal" href="#contacto" aria-label="Cuzco" id="internacional">
+        <div class="ph-inner">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M4 36 L14 22 L22 30 L30 16 L44 36 Z"/>
+            <circle cx="32" cy="12" r="3"/>
+          </svg>
+          <small>Próximamente</small>
+          <h3>Cuzco</h3>
+        </div>
+      </a>
+      <a class="destino destino-placeholder reveal" href="#contacto" aria-label="Lima">
+        <div class="ph-inner">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <rect x="6" y="22" width="36" height="18"/>
+            <path d="M10 22 L10 14 L18 14 L18 22"/>
+            <path d="M22 22 L22 10 L34 10 L34 22"/>
+            <line x1="6" y1="40" x2="42" y2="40"/>
+          </svg>
+          <small>City tour</small>
+          <h3>Lima</h3>
+        </div>
+      </a>
+      <a class="destino destino-placeholder reveal" href="#contacto" aria-label="Arequipa">
+        <div class="ph-inner">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M4 40 L18 16 L26 28 L34 14 L44 40 Z"/>
+            <path d="M14 24 L18 16 L22 24"/>
+          </svg>
+          <small>Sillar blanco</small>
+          <h3>Arequipa</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== POR QUÉ ELEGIRNOS ========== -->
+<section class="porque">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Por qué elegirnos</span>
+      <h2>Cuatro razones <em class="italic">honestas</em></h2>
+    </div>
+    <div class="porque-grid">
+      <div class="feat reveal">
+        <span class="feat-icn">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+            <path d="M16 3 L26 8 V16 C26 22 22 26 16 29 C10 26 6 22 6 16 V8 Z"/>
+            <path d="M11 16 L15 20 L21 13"/>
+          </svg>
+        </span>
+        <h3>Operador MINCETUR</h3>
+        <p>Empresa registrada y supervisada por el Ministerio de Comercio Exterior y Turismo.</p>
+      </div>
+      <div class="feat reveal">
+        <span class="feat-icn">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+            <circle cx="16" cy="12" r="5"/>
+            <path d="M6 28 C8 22 12 19 16 19 C20 19 24 22 26 28"/>
+            <path d="M11 8 L13 6 M21 8 L19 6"/>
+          </svg>
+        </span>
+        <h3>Guías certificados</h3>
+        <p>Profesionales locales con conocimiento real de territorio, historia y biodiversidad.</p>
+      </div>
+      <div class="feat reveal">
+        <span class="feat-icn">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6">
+            <circle cx="16" cy="16" r="11"/>
+            <path d="M16 9 V16 L21 19"/>
+          </svg>
+        </span>
+        <h3>Atención 24/7</h3>
+        <p>Antes, durante y después del viaje. Línea WhatsApp directa con el equipo en Huancayo.</p>
+      </div>
+      <div class="feat reveal">
+        <span class="feat-icn">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+            <path d="M6 18 L14 6 L22 14 L26 10"/>
+            <path d="M20 10 H26 V16"/>
+            <path d="M6 26 H26"/>
+          </svg>
+        </span>
+        <h3>Mejor precio garantizado</h3>
+        <p>Sin intermediarios. Compras directo a quienes operamos las rutas en la sierra central.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACTO ========== -->
+<section class="contacto" id="contacto">
+  <div class="container">
+    <div class="contacto-grid">
+      <div class="contacto-text reveal">
+        <span class="eyebrow">Contacto</span>
+        <h2 style="margin:1rem 0 1.2rem">Conversemos sobre tu<br/><em class="italic">próximo viaje andino.</em></h2>
+        <p>Escríbenos por WhatsApp o pásate por nuestra oficina en pleno centro
+          de Huancayo. Te atendemos en español y quechua básico, con la calma
+          que pide la cordillera.</p>
+
+        <ul class="info-list">
+          <li>
+            <span class="info-icn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.33 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <div>
+              <small>Teléfono</small>
+              <a href="tel:+51988443492">+51 988 443 492</a> &nbsp;·&nbsp;
+              <a href="tel:+51964273294">+51 964 273 294</a>
+            </div>
+          </li>
+          <li>
+            <span class="info-icn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.81 11.81 0 0 1 8.413 3.488 11.823 11.823 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24z"/></svg>
+            </span>
+            <div>
+              <small>WhatsApp</small>
+              <a href="https://wa.me/51988443492" target="_blank" rel="noopener">+51 988 443 492</a>
+            </div>
+          </li>
+          <li>
+            <span class="info-icn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <div>
+              <small>Oficina</small>
+              <span>Jr. Loreto 391, Huancayo, Junín</span>
+            </div>
+          </li>
+          <li>
+            <span class="info-icn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 7 9-7"/></svg>
+            </span>
+            <div>
+              <small>Email</small>
+              <a href="mailto:info@territoriohuanca.com">info@territoriohuanca.com</a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="social-row">
+          <a href="https://facebook.com/terrritoriohuanca" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12h2.9l-.5 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>
+          </a>
+          <a href="https://instagram.com/tourhuancayo" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="https://tiktok.com/@tourshuancayo_selva" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 6.6a4.8 4.8 0 0 1-3.6-1.6 4.7 4.7 0 0 1-1.2-2.6h-3v13.1a2.5 2.5 0 1 1-2.5-2.5c.3 0 .5 0 .8.1V9.8c-.3 0-.5-.1-.8-.1a5.7 5.7 0 1 0 5.7 5.7V9.3a8 8 0 0 0 4.6 1.5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <aside class="contacto-card reveal" aria-label="Reserva rápida">
+        <h3>¿Listo para subir?</h3>
+        <p>Cuéntanos cuántos viajan, qué fechas tienes en mente y qué tipo de
+          experiencia buscas. Te respondemos en menos de una hora dentro del horario laboral.</p>
+        <a class="btn btn-primary" href="https://wa.me/51988443492?text=Hola%20Territorio%20Huanca%2C%20quiero%20informaci%C3%B3n%20de%20tours" target="_blank" rel="noopener">
+          Escríbenos por WhatsApp →
+        </a>
+        <p style="margin-top:1.3rem;font-size:0.78rem;opacity:0.7">Horario: Lun a Sáb · 8:00 a 19:00 hrs · Hora Perú (UTC-5)</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="container row">
+    <a href="#inicio" class="brand">
+      <img src="../assets/logo-territorio-huanca.svg" alt="" style="background:var(--papel);padding:3px;border-radius:50%;width:38px;height:38px" />
+      <span>Territorio Huanca<small>Andes Centrales · Perú</small></span>
+    </a>
+    <p>© 2026 Territorio Huanca · Operador turístico registrado MINCETUR</p>
+    <p class="mini">Diseñado en Huancayo, con respeto a la tierra que pisamos.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  'use strict';
+
+  // ---- Nav scrolled state ----
+  var nav = document.getElementById('nav');
+  var onScroll = function(){
+    if (window.scrollY > 24) nav.classList.add('scrolled');
+    else nav.classList.remove('scrolled');
+  };
+  window.addEventListener('scroll', onScroll, { passive:true });
+  onScroll();
+
+  // ---- Mobile menu ----
+  var btn = document.getElementById('menuBtn');
+  var list = document.getElementById('navList');
+  if (btn && list){
+    btn.addEventListener('click', function(){
+      var open = list.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    list.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        list.classList.remove('open');
+        btn.setAttribute('aria-expanded','false');
+      });
+    });
+  }
+
+  // ---- Reveal IntersectionObserver (mask cortina) ----
+  var prm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var els = document.querySelectorAll('.reveal');
+  if (prm){
+    els.forEach(function(el){ el.classList.add('in'); });
+  } else if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e, idx){
+        if (e.isIntersecting){
+          var d = (idx % 4) * 80;
+          setTimeout(function(){ e.target.classList.add('in'); }, d);
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold:0.14, rootMargin:'0px 0px -40px 0px' });
+    els.forEach(function(el){ io.observe(el); });
+  } else {
+    els.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  // ---- Parallax suave hero (0.3x) ----
+  if (!prm){
+    var photo = document.querySelector('.hero-photo img');
+    var cinta = document.querySelector('.cinta');
+    var ticking = false;
+    var onPar = function(){
+      if (!ticking){
+        window.requestAnimationFrame(function(){
+          var y = window.scrollY;
+          if (photo) photo.style.transform = 'scale(1.05) translateY(' + (y * 0.08) + 'px)';
+          if (cinta) cinta.style.transform = 'translateY(' + (y * -0.18) + 'px)';
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+    window.addEventListener('scroll', onPar, { passive:true });
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Territorio Huanca — Ediciones de viaje desde los Andes Centrales</title>
+<meta name="description" content="Agencia editorial de viajes en Huancayo. Itinerarios curados por los Andes Centrales del Perú: Cañón de Shutjo, Huancaya, Tarma, Ayacucho y más." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<style>
+  /* ---------- Reset minimal ---------- */
+  *,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  img, svg { display: block; max-width: 100%; height: auto; }
+  a { color: inherit; text-decoration: none; }
+  button { font: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+  ul { list-style: none; }
+
+  /* ---------- Variables ---------- */
+  :root {
+    --paper: #fafaf6;
+    --paper-warm: #f5f0e8;
+    --ink: #0e0e0e;
+    --ink-soft: #6b6b6b;
+    --sepia: #8b6e4f;
+    --hairline: rgba(14,14,14,0.18);
+    --hairline-strong: rgba(14,14,14,0.55);
+    --serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    --gutter: clamp(20px, 4vw, 56px);
+    --max: 1320px;
+  }
+
+  body {
+    font-family: var(--sans);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--ink);
+    background: var(--paper);
+    overflow-x: hidden;
+  }
+
+  /* ---------- Tipografía editorial ---------- */
+  .meta {
+    font-family: var(--sans);
+    font-size: 10.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: var(--ink-soft);
+  }
+  .meta--ink { color: var(--ink); }
+
+  h1, h2, h3, h4 {
+    font-family: var(--serif);
+    font-weight: 400;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+  }
+  h1 { font-size: clamp(46px, 8vw, 124px); line-height: 0.98; font-weight: 300; }
+  h2 { font-size: clamp(34px, 5vw, 64px); line-height: 1.05; }
+  h3 { font-size: clamp(22px, 2.4vw, 30px); line-height: 1.15; }
+  h4 { font-size: 18px; line-height: 1.3; }
+  em, .ital { font-style: italic; font-weight: 400; }
+
+  p { color: var(--ink); }
+  .lede { font-family: var(--serif); font-size: clamp(18px, 1.6vw, 22px); line-height: 1.55; color: var(--ink); font-weight: 300; }
+  .soft { color: var(--ink-soft); }
+
+  /* ---------- Layout helpers ---------- */
+  .wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+  .grid12 { display: grid; grid-template-columns: repeat(12, 1fr); gap: clamp(16px, 2vw, 28px); }
+  .hr { height: 1px; background: var(--hairline); width: 100%; }
+  .hr-strong { height: 1px; background: var(--hairline-strong); width: 100%; }
+
+  /* ---------- Page number / running head ---------- */
+  .running {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 14px 0; border-bottom: 1px solid var(--hairline);
+  }
+  .running .meta span { color: var(--ink); }
+
+  /* ---------- NAV ---------- */
+  .nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(250,250,246,0.92);
+    backdrop-filter: saturate(140%) blur(10px);
+    -webkit-backdrop-filter: saturate(140%) blur(10px);
+    border-bottom: 1px solid var(--hairline);
+  }
+  .nav-inner {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 18px 0;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand img { width: 38px; height: 38px; }
+  .brand-text { display: flex; flex-direction: column; line-height: 1; }
+  .brand-text .name { font-family: var(--serif); font-size: 17px; letter-spacing: 0.01em; }
+  .brand-text .sub { font-family: var(--sans); font-size: 9.5px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--ink-soft); margin-top: 4px; }
+
+  .nav-links { display: none; gap: 28px; align-items: center; }
+  .nav-links a {
+    font-size: 13px; font-weight: 400; color: var(--ink);
+    position: relative; padding: 6px 0;
+    transition: letter-spacing 280ms ease-out, color 280ms ease-out;
+  }
+  .nav-links a:hover { letter-spacing: 0.04em; color: var(--sepia); }
+  .nav-links a:focus-visible { outline: 1px solid var(--ink); outline-offset: 6px; }
+
+  .nav-cta {
+    font-family: var(--sans); font-size: 11.5px; font-weight: 500;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    padding: 12px 22px; border: 1px solid var(--ink); color: var(--ink);
+    transition: background 260ms ease-out, color 260ms ease-out, letter-spacing 260ms ease-out;
+  }
+  .nav-cta:hover { background: var(--ink); color: var(--paper); letter-spacing: 0.28em; }
+  .nav-cta:focus-visible { outline: 2px solid var(--sepia); outline-offset: 3px; }
+
+  .menu-toggle { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; letter-spacing: 0.2em; text-transform: uppercase; }
+  .menu-toggle .bars { display: inline-block; width: 22px; height: 1px; background: var(--ink); position: relative; }
+  .menu-toggle .bars::before, .menu-toggle .bars::after { content: ''; position: absolute; left: 0; width: 22px; height: 1px; background: var(--ink); }
+  .menu-toggle .bars::before { top: -6px; }
+  .menu-toggle .bars::after { top: 6px; }
+
+  .mobile-panel {
+    display: none; border-top: 1px solid var(--hairline);
+    padding: 24px var(--gutter) 32px;
+    background: var(--paper);
+  }
+  .mobile-panel.open { display: block; }
+  .mobile-panel ul { display: flex; flex-direction: column; gap: 14px; }
+  .mobile-panel a { font-family: var(--serif); font-size: 24px; }
+  .mobile-panel .nav-cta { margin-top: 18px; display: inline-block; }
+
+  @media (min-width: 1024px) {
+    .nav-links { display: flex; }
+    .menu-toggle { display: none; }
+  }
+
+  /* ---------- HERO ---------- */
+  .hero { padding: clamp(28px, 4vw, 56px) 0 clamp(40px, 6vw, 80px); }
+  .hero-issue {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 20px;
+    padding-bottom: 28px; border-bottom: 1px solid var(--hairline);
+  }
+  .hero-issue .left { display: flex; flex-direction: column; gap: 6px; }
+  .hero-issue .right { text-align: right; display: flex; flex-direction: column; gap: 6px; }
+  .hero-issue .num { font-family: var(--serif); font-size: 13px; letter-spacing: 0.04em; }
+
+  .hero-grid { padding-top: clamp(28px, 5vw, 64px); }
+  .hero-title {
+    grid-column: 1 / -1;
+  }
+  .hero-title .pretitle { margin-bottom: 18px; }
+  .hero-title h1 .l1, .hero-title h1 .l2, .hero-title h1 .l3 { display: block; }
+  .hero-title h1 .l2 { padding-left: clamp(20px, 8vw, 140px); }
+  .hero-title h1 .l3 { padding-left: clamp(40px, 16vw, 280px); font-style: italic; font-weight: 300; }
+
+  .hero-meta-row {
+    margin-top: clamp(32px, 5vw, 56px);
+    display: grid; grid-template-columns: 1fr; gap: 36px;
+    align-items: end;
+  }
+  .hero-desc { max-width: 460px; }
+  .hero-ctas { display: flex; flex-wrap: wrap; gap: 14px; }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: 12px;
+    padding: 14px 22px; font-size: 12px; font-weight: 500;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    border: 1px solid var(--ink);
+    transition: background 260ms ease-out, color 260ms ease-out, letter-spacing 260ms ease-out;
+  }
+  .btn .arrow { display: inline-block; width: 20px; height: 1px; background: currentColor; position: relative; transition: width 260ms ease-out; }
+  .btn .arrow::after { content: ''; position: absolute; right: 0; top: -3px; width: 7px; height: 7px; border-top: 1px solid currentColor; border-right: 1px solid currentColor; transform: rotate(45deg); }
+  .btn:hover { letter-spacing: 0.28em; }
+  .btn:hover .arrow { width: 32px; }
+  .btn--filled { background: var(--ink); color: var(--paper); }
+  .btn--filled:hover { background: var(--sepia); border-color: var(--sepia); }
+  .btn--ghost:hover { background: var(--ink); color: var(--paper); }
+  .btn:focus-visible { outline: 2px solid var(--sepia); outline-offset: 4px; }
+
+  .hero-image {
+    margin-top: clamp(40px, 6vw, 72px);
+    grid-column: 1 / -1;
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--paper-warm);
+  }
+  .hero-image img {
+    width: 100%; height: 100%; object-fit: cover;
+    filter: grayscale(0.25) contrast(1.02);
+    transition: filter 600ms ease-out, transform 1200ms ease-out;
+  }
+  .hero-image:hover img { filter: grayscale(0); transform: scale(1.02); }
+  .hero-image .caption {
+    position: absolute; left: 18px; bottom: 18px;
+    background: var(--paper); padding: 8px 14px;
+    font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase;
+  }
+  .hero-image .folio {
+    position: absolute; right: 18px; top: 18px;
+    font-family: var(--serif); font-style: italic; font-size: 14px;
+    background: var(--paper); padding: 6px 12px;
+  }
+
+  /* ---------- Sección genérica ---------- */
+  section { padding: clamp(64px, 9vw, 120px) 0; position: relative; }
+  .section-head {
+    display: grid; grid-template-columns: 1fr; gap: 20px;
+    padding-bottom: clamp(32px, 4vw, 56px);
+    border-bottom: 1px solid var(--hairline);
+    margin-bottom: clamp(40px, 5vw, 72px);
+  }
+  .section-head .eyebrow { display: flex; align-items: center; gap: 14px; }
+  .section-head .eyebrow .rule { display: inline-block; width: 36px; height: 1px; background: var(--ink); }
+  .section-head h2 .ital { color: var(--sepia); }
+  .section-head .head-foot {
+    display: flex; justify-content: space-between; align-items: end; gap: 20px;
+  }
+  .section-head .head-foot p { max-width: 540px; }
+
+  @media (min-width: 1024px) {
+    .section-head { grid-template-columns: 1fr 1.2fr; align-items: end; }
+  }
+
+  /* ---------- TOURS · layout asimétrico magazine ---------- */
+  .tours-grid {
+    display: grid; grid-template-columns: repeat(12, 1fr);
+    gap: clamp(28px, 3vw, 48px) clamp(20px, 2vw, 28px);
+  }
+  .tour {
+    grid-column: span 12;
+    position: relative;
+    display: flex; flex-direction: column;
+  }
+  .tour .img {
+    aspect-ratio: 3 / 4; overflow: hidden; background: var(--paper-warm);
+    position: relative;
+  }
+  .tour .img img {
+    width: 100%; height: 100%; object-fit: cover;
+    filter: grayscale(0.6) contrast(1.04);
+    transition: filter 480ms ease-out, transform 800ms ease-out;
+  }
+  .tour:hover .img img { filter: grayscale(0); transform: scale(1.03); }
+  .tour .num {
+    position: absolute; top: 12px; left: 12px;
+    background: var(--paper); font-family: var(--serif); font-style: italic;
+    font-size: 13px; padding: 6px 10px; letter-spacing: 0.02em;
+  }
+  .tour .pricetag {
+    position: absolute; right: 12px; bottom: 12px;
+    background: var(--paper); padding: 8px 14px;
+    font-family: var(--sans); font-size: 10.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink);
+  }
+  .tour .pricetag b { font-family: var(--serif); font-style: italic; font-weight: 500; letter-spacing: 0.02em; text-transform: none; margin-left: 6px; font-size: 15px; }
+  .tour .info { padding-top: 18px; display: flex; flex-direction: column; gap: 8px; }
+  .tour .info .meta-row { display: flex; justify-content: space-between; gap: 12px; }
+  .tour h3 { transition: letter-spacing 280ms ease-out; }
+  .tour:hover h3 { letter-spacing: 0.01em; }
+  .tour .lede { color: var(--ink); font-size: 16px; }
+  .tour .more { margin-top: 8px; font-size: 11.5px; letter-spacing: 0.24em; text-transform: uppercase; display: inline-flex; align-items: center; gap: 8px; color: var(--ink); border-bottom: 1px solid var(--ink); padding-bottom: 3px; align-self: flex-start; transition: color 260ms ease-out, border-color 260ms ease-out; }
+  .tour .more:hover { color: var(--sepia); border-color: var(--sepia); }
+
+  /* posiciones asimétricas magazine */
+  @media (min-width: 768px) {
+    .tour-1 { grid-column: 1 / span 6; }
+    .tour-2 { grid-column: 8 / span 5; margin-top: clamp(40px, 8vw, 96px); }
+    .tour-3 { grid-column: 2 / span 5; }
+    .tour-4 { grid-column: 8 / span 4; margin-top: clamp(0px, 4vw, 40px); }
+    .tour-5 { grid-column: 1 / span 4; margin-top: clamp(20px, 5vw, 64px); }
+    .tour-6 { grid-column: 6 / span 7; margin-top: clamp(20px, 5vw, 48px); }
+    .tour-6 .img { aspect-ratio: 4 / 3; }
+  }
+  @media (min-width: 1024px) {
+    .tour-1 { grid-column: 1 / span 5; }
+    .tour-2 { grid-column: 7 / span 4; margin-top: clamp(80px, 10vw, 140px); }
+    .tour-3 { grid-column: 2 / span 4; }
+    .tour-4 { grid-column: 8 / span 5; margin-top: clamp(0px, 6vw, 80px); }
+    .tour-5 { grid-column: 1 / span 4; margin-top: clamp(20px, 6vw, 80px); }
+    .tour-6 { grid-column: 6 / span 7; margin-top: clamp(40px, 6vw, 64px); }
+  }
+
+  /* ---------- Sobre nosotros ---------- */
+  .about {
+    background: var(--paper-warm);
+  }
+  .about .grid12 { align-items: start; }
+  .about .left { grid-column: 1 / -1; }
+  .about .right { grid-column: 1 / -1; margin-top: 32px; }
+  .about-quote {
+    font-family: var(--serif);
+    font-size: clamp(26px, 3.4vw, 42px);
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.2;
+    color: var(--ink);
+    max-width: 18ch;
+  }
+  .about-quote span.amp { color: var(--sepia); }
+  .about-body p + p { margin-top: 18px; }
+  .stats { margin-top: clamp(40px, 5vw, 72px); display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 1px solid var(--hairline-strong); border-bottom: 1px solid var(--hairline-strong); }
+  .stat { padding: 28px clamp(8px, 1.5vw, 20px); display: flex; flex-direction: column; gap: 6px; }
+  .stat + .stat { border-left: 1px solid var(--hairline); }
+  .stat .n { font-family: var(--serif); font-size: clamp(40px, 5.5vw, 64px); line-height: 1; font-weight: 300; letter-spacing: -0.02em; }
+  .stat .n .ital { color: var(--sepia); }
+  .stat .l { font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-soft); }
+
+  @media (min-width: 1024px) {
+    .about .left { grid-column: 1 / span 5; }
+    .about .right { grid-column: 7 / span 6; margin-top: 0; }
+  }
+
+  /* ---------- Destinos ---------- */
+  .dest-grid {
+    display: grid; grid-template-columns: repeat(12, 1fr);
+    gap: clamp(20px, 2vw, 28px);
+  }
+  .dest { grid-column: span 12; }
+  .dest .img { aspect-ratio: 4 / 5; overflow: hidden; background: var(--paper-warm); }
+  .dest .img img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(0.7); transition: filter 480ms ease-out, transform 700ms ease-out; }
+  .dest:hover .img img { filter: grayscale(0); transform: scale(1.04); }
+  .dest .info { padding-top: 14px; display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+  .dest .info h4 { font-size: 20px; }
+  .dest .info .reg { font-size: 10.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-soft); }
+
+  .dest-text {
+    grid-column: span 12;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: clamp(20px, 3vw, 36px) clamp(16px, 2vw, 24px);
+    border: 1px solid var(--hairline);
+    aspect-ratio: 4 / 5;
+    transition: border-color 320ms ease-out, background 320ms ease-out;
+  }
+  .dest-text:hover { border-color: var(--hairline-strong); background: var(--paper-warm); }
+  .dest-text .city { font-family: var(--serif); font-size: clamp(36px, 4vw, 52px); font-weight: 300; line-height: 1; letter-spacing: -0.02em; }
+  .dest-text .city .ital { color: var(--sepia); }
+  .dest-text .region { margin-top: 14px; font-size: 10.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-soft); }
+  .dest-text .desc { margin-top: 20px; font-family: var(--serif); font-style: italic; font-size: 16px; line-height: 1.45; color: var(--ink); }
+  .dest-text .coord { margin-top: auto; padding-top: 24px; border-top: 1px solid var(--hairline); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-soft); }
+
+  @media (min-width: 768px) {
+    .dest, .dest-text { grid-column: span 4; }
+  }
+  @media (min-width: 1024px) {
+    .dest, .dest-text { grid-column: span 3; }
+  }
+
+  /* ---------- Por qué elegirnos ---------- */
+  .why-grid {
+    display: grid; grid-template-columns: repeat(12, 1fr);
+    gap: 0;
+    border-top: 1px solid var(--hairline-strong);
+    border-bottom: 1px solid var(--hairline-strong);
+  }
+  .why {
+    grid-column: span 12;
+    padding: clamp(28px, 3vw, 44px) clamp(16px, 2vw, 28px);
+    border-bottom: 1px solid var(--hairline);
+    display: flex; flex-direction: column; gap: 16px;
+    transition: background 320ms ease-out;
+  }
+  .why:hover { background: var(--paper-warm); }
+  .why:last-child { border-bottom: none; }
+  .why .num { font-family: var(--serif); font-style: italic; font-size: 14px; color: var(--sepia); letter-spacing: 0.04em; }
+  .why h4 { font-size: clamp(22px, 2vw, 26px); }
+  .why p { color: var(--ink-soft); font-size: 14px; max-width: 38ch; }
+
+  @media (min-width: 768px) {
+    .why { grid-column: span 6; }
+    .why:nth-child(odd) { border-right: 1px solid var(--hairline); }
+    .why:nth-last-child(-n+2) { border-bottom: none; }
+  }
+  @media (min-width: 1024px) {
+    .why { grid-column: span 3; }
+    .why { border-right: 1px solid var(--hairline); border-bottom: none; }
+    .why:last-child { border-right: none; }
+    .why:nth-child(odd) { border-right: 1px solid var(--hairline); }
+  }
+
+  /* ---------- Contacto ---------- */
+  .contact {
+    background: var(--ink); color: var(--paper);
+  }
+  .contact * { color: inherit; }
+  .contact .meta { color: rgba(250,250,246,0.6); }
+  .contact .section-head { border-bottom: 1px solid rgba(250,250,246,0.18); }
+  .contact .section-head .eyebrow .rule { background: var(--paper); }
+  .contact h2 .ital { color: #d8b896; }
+  .contact-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: clamp(28px, 3vw, 48px); }
+  .contact-block { grid-column: span 12; padding: 24px 0; border-top: 1px solid rgba(250,250,246,0.18); display: flex; flex-direction: column; gap: 10px; }
+  .contact-block .label { font-size: 10.5px; letter-spacing: 0.24em; text-transform: uppercase; color: rgba(250,250,246,0.55); }
+  .contact-block .value { font-family: var(--serif); font-size: clamp(22px, 2vw, 26px); font-weight: 300; line-height: 1.2; }
+  .contact-block a.value:hover { color: #d8b896; }
+  .contact-block .small { font-size: 14px; color: rgba(250,250,246,0.75); }
+  .social-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 6px; }
+  .social-row a { font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; border-bottom: 1px solid rgba(250,250,246,0.4); padding-bottom: 3px; transition: color 240ms ease-out, border-color 240ms ease-out; }
+  .social-row a:hover { color: #d8b896; border-color: #d8b896; }
+
+  @media (min-width: 768px) {
+    .contact-block { grid-column: span 6; }
+  }
+  @media (min-width: 1024px) {
+    .contact-block { grid-column: span 3; }
+  }
+
+  /* ---------- Footer ---------- */
+  .footer { padding: 36px 0 32px; background: var(--paper); border-top: 1px solid var(--hairline); }
+  .footer-inner { display: flex; flex-direction: column; gap: 18px; align-items: flex-start; }
+  .footer .brand img { width: 32px; height: 32px; }
+  .footer .colofon { font-family: var(--serif); font-style: italic; font-size: 13px; color: var(--ink-soft); max-width: 50ch; }
+  .footer .legal { display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 16px; flex-wrap: wrap; padding-top: 18px; border-top: 1px solid var(--hairline); margin-top: 8px; }
+  .footer .legal .meta { color: var(--ink-soft); }
+
+  @media (min-width: 768px) {
+    .footer-inner { flex-direction: row; justify-content: space-between; align-items: center; }
+    .footer .colofon { text-align: right; max-width: 40ch; }
+    .footer .legal { flex-basis: 100%; }
+  }
+
+  /* ---------- Reveal animation ---------- */
+  .reveal { opacity: 0; transform: translateY(20px); transition: opacity 600ms ease-out, transform 600ms ease-out; }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+    .reveal { opacity: 1 !important; transform: none !important; }
+    html { scroll-behavior: auto; }
+  }
+
+  :focus-visible { outline: 2px solid var(--sepia); outline-offset: 3px; }
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" role="banner">
+  <div class="wrap nav-inner">
+    <a href="#inicio" class="brand" aria-label="Territorio Huanca — Inicio">
+      <img src="../assets/logo-territorio-huanca.svg" alt="Logotipo Territorio Huanca" />
+      <span class="brand-text">
+        <span class="name">Territorio Huanca</span>
+        <span class="sub">Ediciones de viaje · Huancayo</span>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#tours">Tours</a>
+      <a href="#paquetes-nacional">Paquetes Nacional</a>
+      <a href="#paquetes-internacional">Paquetes Internacional</a>
+      <a href="#contacto">Contacto</a>
+      <a class="nav-cta" href="https://wa.me/51988443492" target="_blank" rel="noopener">Reservar</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobilePanel">
+      <span>Menú</span><span class="bars" aria-hidden="true"></span>
+    </button>
+  </div>
+  <div id="mobilePanel" class="mobile-panel" hidden>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#tours">Tours</a></li>
+      <li><a href="#paquetes-nacional">Paquetes Nacional</a></li>
+      <li><a href="#paquetes-internacional">Paquetes Internacional</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a class="nav-cta" href="https://wa.me/51988443492" target="_blank" rel="noopener">Reservar por WhatsApp</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<main>
+<section class="hero" id="inicio" aria-labelledby="heroTitle">
+  <div class="wrap">
+
+    <!-- Running head magazine -->
+    <div class="hero-issue reveal">
+      <div class="left">
+        <span class="meta meta--ink">Edición N.º 14 — Otoño · MMXXVI</span>
+        <span class="meta">Andes Centrales del Perú · Huancayo, Junín</span>
+      </div>
+      <div class="right">
+        <span class="meta meta--ink">PG. 01 / 08</span>
+        <span class="meta">Operador autorizado · MINCETUR</span>
+      </div>
+    </div>
+
+    <!-- Title block -->
+    <div class="hero-grid">
+      <div class="hero-title reveal">
+        <div class="pretitle meta">— Crónicas de altura ·  un cuaderno de viaje</div>
+        <h1 id="heroTitle">
+          <span class="l1">Descubre los</span>
+          <span class="l2">Andes Centrales</span>
+          <span class="l3 ital">del Perú.</span>
+        </h1>
+      </div>
+
+      <div class="hero-meta-row reveal">
+        <p class="lede hero-desc">
+          Una agencia editorial de viajes. Curamos rutas por Huancayo, Tarma, Huancaya y Ayacucho con guías locales que conocen cada quebrada, cada feria, cada cantar.
+        </p>
+        <div class="hero-ctas">
+          <a class="btn btn--filled" href="#tours">Ver itinerarios <span class="arrow" aria-hidden="true"></span></a>
+          <a class="btn btn--ghost" href="https://wa.me/51988443492" target="_blank" rel="noopener">Reservar por WhatsApp <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </div>
+
+      <figure class="hero-image reveal" aria-hidden="false">
+        <img src="../assets/Tour-Huancaya.jpg" alt="Lagunas turquesa de Huancaya, Nor Yauyos, en los Andes Centrales del Perú" loading="lazy" />
+        <span class="caption">Huancaya · Nor Yauyos Cochas</span>
+        <span class="folio ital">— foto i.</span>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TOURS ============ -->
+<section id="tours" aria-labelledby="toursTitle">
+  <div class="wrap">
+    <div class="running reveal" aria-hidden="true">
+      <span class="meta">II — Sumario de rutas</span>
+      <span class="meta">PG. 02 / 08</span>
+    </div>
+
+    <header class="section-head reveal">
+      <div>
+        <div class="eyebrow meta meta--ink"><span class="rule" aria-hidden="true"></span><span>Paquetes turísticos · Huancayo</span></div>
+        <h2>Seis itinerarios <span class="ital">cuidadosamente curados</span></h2>
+      </div>
+      <div class="head-foot">
+        <p class="soft">De los cañones de Junín a los cafetales de la selva alta. Cada salida con cupos limitados, guías acreditados y un cuaderno de campo de regalo.</p>
+        <span class="meta">06 ediciones</span>
+      </div>
+    </header>
+
+    <div class="tours-grid">
+      <article class="tour tour-1 reveal">
+        <div class="img">
+          <span class="num">N.º 01</span>
+          <img src="../assets/Canon-de-shutjo.jpg" alt="Cañón de Shutjo, formación rocosa natural en Junín" loading="lazy" />
+          <span class="pricetag">Desde <b>S/ 85</b></span>
+        </div>
+        <div class="info">
+          <div class="meta-row"><span class="meta">Junín · 1 día</span><span class="meta">Aventura</span></div>
+          <h3>Cañón de Shutjo</h3>
+          <p class="lede ital">Aventura en el cañón natural de Junín, entre paredes de roca esculpidas por el viento.</p>
+          <a class="more" href="https://wa.me/51988443492?text=Hola,%20me%20interesa%20el%20Cañón%20de%20Shutjo" target="_blank" rel="noopener">Leer ficha <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="tour tour-2 reveal">
+        <div class="img">
+          <span class="num">N.º 02</span>
+          <img src="../assets/Tour-Huancaya.jpg" alt="Cascadas y lagunas turquesa de Huancaya en Nor Yauyos" loading="lazy" />
+          <span class="pricetag">Desde <b>S/ 120</b></span>
+        </div>
+        <div class="info">
+          <div class="meta-row"><span class="meta">Lima · 2 días</span><span class="meta">Naturaleza</span></div>
+          <h3>Tour Huancaya</h3>
+          <p class="lede ital">Lagunas turquesa de Nor Yauyos, cascadas escalonadas y silencios de altura.</p>
+          <a class="more" href="https://wa.me/51988443492?text=Hola,%20me%20interesa%20Huancaya" target="_blank" rel="noopener">Leer ficha <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="tour tour-3 reveal">
+        <div class="img">
+          <span class="num">N.º 03</span>
+          <img src="../assets/Tour-Cascada-el-Leon-Villa-Rica-001.jpg" alt="Cascada El León en Villa Rica, selva alta peruana" loading="lazy" />
+          <span class="pricetag">Desde <b>S/ 220</b></span>
+        </div>
+        <div class="info">
+          <div class="meta-row"><span class="meta">Pasco · 3 días</span><span class="meta">Selva alta</span></div>
+          <h3>Villa Rica · Cascada El León</h3>
+          <p class="lede ital">Selva alta y cafetales de altura. Aroma a café tostado y la voz del agua.</p>
+          <a class="more" href="https://wa.me/51988443492?text=Hola,%20me%20interesa%20Villa%20Rica" target="_blank" rel="noopener">Leer ficha <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="tour tour-4 reveal">
+        <div class="img">
+          <span class="num">N.º 04</span>
+          <img src="../assets/Tour-Tarma-Perla-de-Los-Andes-002.jpg" alt="Valles floridos de Tarma, Perla de los Andes" loading="lazy" />
+          <span class="pricetag">Desde <b>S/ 95</b></span>
+        </div>
+        <div class="info">
+          <div class="meta-row"><span class="meta">Junín · 2 días</span><span class="meta">Cultura</span></div>
+          <h3>Tarma · Perla de los Andes</h3>
+          <p class="lede ital">Valles floridos y la Gruta de Guagapo, donde la piedra guarda eco.</p>
+          <a class="more" href="https://wa.me/51988443492?text=Hola,%20me%20interesa%20Tarma" target="_blank" rel="noopener">Leer ficha <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="tour tour-5 reveal">
+        <div class="img">
+          <span class="num">N.º 05</span>
+          <img src="../assets/Arwaturo.jpg" alt="Mirador andino de Arwaturo y pueblo ancestral en Huancayo" loading="lazy" />
+          <span class="pricetag">Desde <b>S/ 70</b></span>
+        </div>
+        <div class="info">
+          <div class="meta-row"><span class="meta">Huancayo · 1 día</span><span class="meta">Tradición</span></div>
+          <h3>Arwaturo</h3>
+          <p class="lede ital">Mirador andino y pueblo ancestral, asomado al valle del Mantaro.</p>
+          <a class="more" href="https://wa.me/51988443492?text=Hola,%20me%20interesa%20Arwaturo" target="_blank" rel="noopener">Leer ficha <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="tour tour-6 reveal">
+        <div class="img">
+          <span class="num">N.º 06</span>
+          <img src="../assets/Ayacucho.jpg" alt="Ciudad de Ayacucho conocida por sus 33 iglesias coloniales" loading="lazy" />
+          <span class="pricetag">Desde <b>S/ 280</b></span>
+        </div>
+        <div class="info">
+          <div class="meta-row"><span class="meta">Ayacucho · 4 días</span><span class="meta">Historia</span></div>
+          <h3>Ayacucho · Ciudad de las 33 iglesias</h3>
+          <p class="lede ital">Una capital de retablos y semana santa, donde el barroco y los Andes conversan.</p>
+          <a class="more" href="https://wa.me/51988443492?text=Hola,%20me%20interesa%20Ayacucho" target="_blank" rel="noopener">Leer ficha <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="sobre-nosotros" aria-labelledby="aboutTitle">
+  <div class="wrap">
+    <div class="running reveal" aria-hidden="true">
+      <span class="meta">III — Editorial</span>
+      <span class="meta">PG. 03 / 08</span>
+    </div>
+
+    <header class="section-head reveal">
+      <div>
+        <div class="eyebrow meta meta--ink"><span class="rule" aria-hidden="true"></span><span>Sobre nosotros</span></div>
+        <h2 id="aboutTitle">Una agencia <span class="ital">que escribe</span> el viaje.</h2>
+      </div>
+      <div class="head-foot">
+        <p class="soft">Diez años recorriendo los Andes Centrales del Perú con la misma convicción: viajar despacio, leer el paisaje, sostener a la gente que lo habita.</p>
+        <span class="meta">Desde 2016</span>
+      </div>
+    </header>
+
+    <div class="grid12">
+      <div class="left reveal">
+        <p class="about-quote">
+          “Cada itinerario es <span class="ital">una pequeña</span> <span class="amp ital">edición de campo</span>, hecha con cariño <span class="ital">y rigor</span>.”
+        </p>
+      </div>
+      <div class="right about-body reveal">
+        <p>Territorio Huanca nace en Huancayo como un proyecto familiar de viajes lentos. Operamos como una pequeña casa editora de rutas: investigamos el terreno, conversamos con la comunidad, dibujamos el mapa y lo publicamos. Cada salida tiene autor, guion y cuaderno.</p>
+        <p>Trabajamos con guías locales certificados, vehículos en buen estado y un compromiso firme con el turismo responsable. Somos operador autorizado por MINCETUR y nos enorgullece dejar huella positiva en cada valle.</p>
+      </div>
+    </div>
+
+    <div class="stats reveal" aria-label="Cifras de la agencia">
+      <div class="stat">
+        <span class="n">10<span class="ital">+</span></span>
+        <span class="l">Años recorriendo los Andes</span>
+      </div>
+      <div class="stat">
+        <span class="n">500<span class="ital">+</span></span>
+        <span class="l">Viajeros acompañados</span>
+      </div>
+      <div class="stat">
+        <span class="n">25<span class="ital">+</span></span>
+        <span class="l">Destinos curados</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DESTINOS ============ -->
+<section id="paquetes-nacional" aria-labelledby="destTitle">
+  <div class="wrap">
+    <div class="running reveal" aria-hidden="true">
+      <span class="meta">IV — Atlas breve</span>
+      <span class="meta">PG. 04 / 08</span>
+    </div>
+
+    <header class="section-head reveal">
+      <div>
+        <div class="eyebrow meta meta--ink"><span class="rule" aria-hidden="true"></span><span>Destinos</span></div>
+        <h2 id="destTitle">Un pequeño atlas <span class="ital">del territorio.</span></h2>
+      </div>
+      <div class="head-foot">
+        <p class="soft">Sierra, ceja de selva y ciudades coloniales. Una selección de lugares que volveríamos a visitar mañana mismo.</p>
+        <span class="meta">06 estampas</span>
+      </div>
+    </header>
+
+    <div class="dest-grid">
+      <article class="dest reveal">
+        <div class="img"><img src="../assets/Huancavelica.jpg" alt="Paisajes de Huancavelica, sierra sur central del Perú" loading="lazy" /></div>
+        <div class="info"><h4>Huancavelica</h4><span class="reg">Sierra central</span></div>
+      </article>
+      <article class="dest reveal">
+        <div class="img"><img src="../assets/Mirador-Villa-Rica-001.jpg" alt="Mirador de Villa Rica con vistas al valle cafetalero" loading="lazy" /></div>
+        <div class="info"><h4>Mirador Villa Rica</h4><span class="reg">Pasco · Selva alta</span></div>
+      </article>
+      <article class="dest reveal">
+        <div class="img"><img src="../assets/Tour-Puente-Calicanto-001.jpg" alt="Puente Calicanto, obra de cal y canto en Huancayo" loading="lazy" /></div>
+        <div class="info"><h4>Puente Calicanto</h4><span class="reg">Huancayo · Junín</span></div>
+      </article>
+
+      <article class="dest-text reveal" id="paquetes-internacional">
+        <span class="city">Cuzco<span class="ital">.</span></span>
+        <span class="region">Cuzco · Andes del sur</span>
+        <p class="desc">Ombligo del mundo. El barroco y los apus mirándose de frente.</p>
+        <span class="coord">13.5°S · 71.9°W</span>
+      </article>
+      <article class="dest-text reveal">
+        <span class="city">Lima<span class="ital">.</span></span>
+        <span class="region">Lima · Costa central</span>
+        <p class="desc">Ciudad de garúa, miradores y cocina que escribe libros.</p>
+        <span class="coord">12.0°S · 77.0°W</span>
+      </article>
+      <article class="dest-text reveal">
+        <span class="city">Arequipa<span class="ital">.</span></span>
+        <span class="region">Arequipa · Sur andino</span>
+        <p class="desc">La ciudad blanca de sillar, custodiada por tres volcanes.</p>
+        <span class="coord">16.4°S · 71.5°W</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section aria-labelledby="whyTitle">
+  <div class="wrap">
+    <div class="running reveal" aria-hidden="true">
+      <span class="meta">V — Por qué con nosotros</span>
+      <span class="meta">PG. 05 / 08</span>
+    </div>
+
+    <header class="section-head reveal">
+      <div>
+        <div class="eyebrow meta meta--ink"><span class="rule" aria-hidden="true"></span><span>Cuatro razones</span></div>
+        <h2 id="whyTitle">Por qué <span class="ital">elegirnos</span>.</h2>
+      </div>
+      <div class="head-foot">
+        <p class="soft">Las cosas que cuidamos cuando preparamos un viaje, antes de que tú levantes la maleta.</p>
+        <span class="meta">04 principios</span>
+      </div>
+    </header>
+
+    <div class="why-grid">
+      <article class="why reveal">
+        <span class="num">— i.</span>
+        <h4>Operador autorizado MINCETUR</h4>
+        <p>Registro formal y seguros vigentes en cada salida. Viajas con respaldo institucional.</p>
+      </article>
+      <article class="why reveal">
+        <span class="num">— ii.</span>
+        <h4>Guías locales certificados</h4>
+        <p>Personas de la zona, acreditadas y bilingües cuando hace falta. El paisaje contado por su gente.</p>
+      </article>
+      <article class="why reveal">
+        <span class="num">— iii.</span>
+        <h4>Atención 24/7</h4>
+        <p>Una línea siempre abierta en WhatsApp para antes, durante y después del viaje.</p>
+      </article>
+      <article class="why reveal">
+        <span class="num">— iv.</span>
+        <h4>Mejor precio garantizado</h4>
+        <p>Sin intermediarios. Si encuentras la misma ruta a menor precio, igualamos la tarifa.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contacto" aria-labelledby="contactTitle">
+  <div class="wrap">
+    <div class="running reveal" aria-hidden="true">
+      <span class="meta">VI — Reservas</span>
+      <span class="meta">PG. 06 / 08</span>
+    </div>
+
+    <header class="section-head reveal">
+      <div>
+        <div class="eyebrow meta"><span class="rule" aria-hidden="true"></span><span>Contacto</span></div>
+        <h2 id="contactTitle">Escríbenos. <span class="ital">Te respondemos hoy.</span></h2>
+      </div>
+      <div class="head-foot">
+        <p>Atendemos consultas todos los días. Te ayudamos a armar un itinerario personalizado y a coordinar el calendario de salidas.</p>
+        <span class="meta">Jr. Loreto 391 · Huancayo</span>
+      </div>
+    </header>
+
+    <div class="contact-grid">
+      <div class="contact-block reveal">
+        <span class="label">Teléfono</span>
+        <a class="value" href="tel:+51988443492">+51 988 443 492</a>
+        <span class="small">Atención de 7:00 a 22:00, todos los días.</span>
+      </div>
+      <div class="contact-block reveal">
+        <span class="label">WhatsApp</span>
+        <a class="value" href="https://wa.me/51988443492" target="_blank" rel="noopener">+51 988 443 492</a>
+        <a class="small" href="https://wa.me/51964273294" target="_blank" rel="noopener">Alternativo · +51 964 273 294</a>
+      </div>
+      <div class="contact-block reveal">
+        <span class="label">Correo</span>
+        <a class="value" href="mailto:info@territoriohuanca.com">info@territoriohuanca.com</a>
+        <span class="small">Respondemos en menos de 12 horas hábiles.</span>
+      </div>
+      <div class="contact-block reveal">
+        <span class="label">Oficina</span>
+        <span class="value">Jr. Loreto 391</span>
+        <span class="small">Huancayo, Junín — Perú</span>
+        <div class="social-row" aria-label="Redes sociales">
+          <a href="https://facebook.com/terrritoriohuanca" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://instagram.com/tourhuancayo" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://tiktok.com/@tourshuancayo_selva" target="_blank" rel="noopener">TikTok</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" role="contentinfo">
+  <div class="wrap">
+    <div class="footer-inner">
+      <div class="brand">
+        <img src="../assets/logo-territorio-huanca.svg" alt="Territorio Huanca" />
+        <span class="brand-text">
+          <span class="name">Territorio Huanca</span>
+          <span class="sub">Ediciones de viaje desde Huancayo</span>
+        </span>
+      </div>
+      <p class="colofon">Una pequeña casa editora de rutas por los Andes Centrales del Perú. Hecho a mano, con cuidado, en el valle del Mantaro.</p>
+    </div>
+    <div class="legal">
+      <span class="meta">© MMXXVI · Territorio Huanca · Todos los derechos reservados</span>
+      <span class="meta">Colofón — PG. 08 / 08 · Tipografía: Fraunces & Inter</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // ---------- Menú móvil ----------
+  (function(){
+    var btn = document.querySelector('.menu-toggle');
+    var panel = document.getElementById('mobilePanel');
+    if (!btn || !panel) return;
+    btn.addEventListener('click', function(){
+      var open = panel.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      if (open) { panel.removeAttribute('hidden'); }
+      else { panel.setAttribute('hidden', ''); }
+    });
+    // cerrar al hacer click en un link
+    panel.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        panel.classList.remove('open');
+        panel.setAttribute('hidden','');
+        btn.setAttribute('aria-expanded','false');
+      });
+    });
+  })();
+
+  // ---------- Reveal on scroll ----------
+  (function(){
+    var prefersReduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var els = document.querySelectorAll('.reveal');
+    if (prefersReduce || !('IntersectionObserver' in window)) {
+      els.forEach(function(el){ el.classList.add('in'); });
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+    els.forEach(function(el){ io.observe(el); });
+  })();
+</script>
+
+</body>
+</html>
