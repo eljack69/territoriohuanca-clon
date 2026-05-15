@@ -1,6 +1,6 @@
 {
   "urlOrigen": "https://www.territoriohuanca.com/",
-  "timestamp": "2026-05-15T12:02:37",
+  "timestamp": "2026-05-15T12:58:52",
   "paginas": [
     {
       "url": "https://www.territoriohuanca.com/",
@@ -169,7 +169,7 @@
   ],
   "totalPaginas": 41,
   "totalAssets": 349,
-  "assetsDescargadosAhora": 303,
+  "assetsDescargadosAhora": 304,
   "assetsReutilizados": 0,
   "erroresPaginas": [
     {
@@ -225,10 +225,6 @@
     {
       "url": "https://www.territoriohuanca.com/traslado-aeropuerto-huancayo-a-jauja/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
       "error": "URL can't contain control characters. '/traslado-aeropuerto-huancayo-a-jauja/&quot;data:image/svg+xml,%3Csvg xmlns=&#039"
-    },
-    {
-      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/parque-de-los-sombreros.jpg",
-      "error": "The read operation timed out"
     },
     {
       "url": "https://www.territoriohuanca.com/tour-huancayo/city-tour-huancayo/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
@@ -361,6 +357,1753 @@
     {
       "url": "https://www.territoriohuanca.com/tour-huancayo/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
       "error": "URL can't contain control characters. '/tour-huancayo/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-includes/css/dist/block-library/style.min.css?ver=6.9.4",
+      "local": "assets/style.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/jet-engine/assets/css/frontend.css?ver=2.8.0",
+      "local": "assets/frontend.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/themes/hello-elementor/style.min.css?ver=2.4.1",
+      "local": "assets/style.min-1.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/themes/hello-elementor/theme.min.css?ver=2.4.1",
+      "local": "assets/theme.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.13.0",
+      "local": "assets/elementor-icons.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.5.3",
+      "local": "assets/frontend-lite.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/powerpack-elements/assets/css/min/frontend.min.css?ver=2.3.6",
+      "local": "assets/frontend.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.5.2",
+      "local": "assets/frontend-lite.min-1.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/ultimate-elementor/assets/min-css/uael-frontend.min.css?ver=1.35.3",
+      "local": "assets/uael-frontend.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.5.3",
+      "local": "assets/all.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.5.3",
+      "local": "assets/v4-shims.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/themes/hello-theme-child-master/style.css?ver=1.0.0",
+      "local": "assets/style.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COxygen%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CUbuntu%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.9.4",
+      "local": "assets/css.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3",
+      "local": "assets/fontawesome.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3",
+      "local": "assets/solid.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3",
+      "local": "assets/regular.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3",
+      "local": "assets/brands.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/log-territorio-huanca.png",
+      "local": "assets/log-territorio-huanca.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.5.3",
+      "local": "assets/animations.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css",
+      "local": "assets/widget-nav-menu.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "local": "assets/jquery.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "local": "assets/jquery-migrate.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.5.3",
+      "local": "assets/v4-shims.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=1.0.0",
+      "local": "assets/hello-frontend.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1",
+      "local": "assets/jquery.smartmenus.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/ultimate-elementor/assets/min-js/uael-offcanvas.min.js?ver=1.35.3",
+      "local": "assets/uael-offcanvas.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-includes/js/imagesloaded.min.js?ver=5.0.0",
+      "local": "assets/imagesloaded.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.2",
+      "local": "assets/webpack-pro.runtime.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.5.3",
+      "local": "assets/webpack.runtime.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.5.3",
+      "local": "assets/frontend-modules.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.2",
+      "local": "assets/frontend.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2",
+      "local": "assets/waypoints.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+      "local": "assets/core.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.5.3",
+      "local": "assets/frontend.min-1.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.2",
+      "local": "assets/elements-handlers.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.2",
+      "local": "assets/jquery.sticky.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/jet-engine/assets/js/frontend.js?ver=2.8.0",
+      "local": "assets/frontend.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/powerpack-elements/assets/js/pp-bg-effects.js?ver=1.0.0",
+      "local": "assets/pp-bg-effects.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://code.tidio.co/47n5lfqcyhb2698zikuet9vgd21vh9dq.js",
+      "local": "assets/47n5lfqcyhb2698zikuet9vgd21vh9dq.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/logotipo-territorio-huanca.svg",
+      "local": "assets/logotipo-territorio-huanca.svg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/logotipo-territorio-huanca-01.svg",
+      "local": "assets/logotipo-territorio-huanca-01.svg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/logo-territorio-huanca.svg",
+      "local": "assets/logo-territorio-huanca.svg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-monumental-jauja-laguna-de-paca.jpg",
+      "local": "assets/tour-monumental-jauja-laguna-de-paca.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/taller-mates-burilados.jpg",
+      "local": "assets/taller-mates-burilados.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Construcciones-de-piedra-Arwuaturo.jpg",
+      "local": "assets/Construcciones-de-piedra-Arwuaturo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/plaza-constitucion-1.jpg",
+      "local": "assets/plaza-constitucion-1.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/sdjo.jpg",
+      "local": "assets/sdjo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Canon-de-shutjo.jpg",
+      "local": "assets/Canon-de-shutjo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Tour-Huancaya.jpg",
+      "local": "assets/Tour-Huancaya.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Tour-Tarma-Perla-de-Los-Andes-002.jpg",
+      "local": "assets/Tour-Tarma-Perla-de-Los-Andes-002.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Tour-Comunidad-Nativa-Pampa-Michi-001.jpg",
+      "local": "assets/Tour-Comunidad-Nativa-Pampa-Michi-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/catarata-bayos-2.jpg",
+      "local": "assets/catarata-bayos-2.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/paseo-en-bote-laguna-el-oconal-1002.jpg",
+      "local": "assets/paseo-en-bote-laguna-el-oconal-1002.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-Tunqui-Cueva-001.jpg",
+      "local": "assets/tour-Tunqui-Cueva-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-huayllay-bosque-de-piedras-003.jpg",
+      "local": "assets/tour-huayllay-bosque-de-piedras-003.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/logo-prom-peru-marca-peru-pet-friendly-001-pnbm1c8ih013t06d2dq5342c3dotxsh8i1jpe8j85c.png",
+      "local": "assets/logo-prom-peru-marca-peru-pet-friendly-001-pnbm1c8ih013t06d2dq5342c3dotxsh8i1jpe8j85c.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/plin-yape-4.png",
+      "local": "assets/plin-yape-4.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/logo-bancos-1.png",
+      "local": "assets/logo-bancos-1.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-monumental-jauja-laguna-de-paca-300x200.jpg",
+      "local": "assets/tour-monumental-jauja-laguna-de-paca-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/taller-mates-burilados-300x200.jpg",
+      "local": "assets/taller-mates-burilados-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Construcciones-de-piedra-Arwuaturo-300x200.jpg",
+      "local": "assets/Construcciones-de-piedra-Arwuaturo-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/plaza-constitucion-1-300x200.jpg",
+      "local": "assets/plaza-constitucion-1-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/sdjo-300x200.jpg",
+      "local": "assets/sdjo-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Canon-de-shutjo-300x200.jpg",
+      "local": "assets/Canon-de-shutjo-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Tour-Huancaya-300x200.jpg",
+      "local": "assets/Tour-Huancaya-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Tour-Tarma-Perla-de-Los-Andes-002-300x200.jpg",
+      "local": "assets/Tour-Tarma-Perla-de-Los-Andes-002-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Tour-Comunidad-Nativa-Pampa-Michi-001-300x200.jpg",
+      "local": "assets/Tour-Comunidad-Nativa-Pampa-Michi-001-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/catarata-bayos-2-300x200.jpg",
+      "local": "assets/catarata-bayos-2-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/paseo-en-bote-laguna-el-oconal-1002-300x200.jpg",
+      "local": "assets/paseo-en-bote-laguna-el-oconal-1002-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-Tunqui-Cueva-001-300x200.jpg",
+      "local": "assets/tour-Tunqui-Cueva-001-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-huayllay-bosque-de-piedras-003-300x200.jpg",
+      "local": "assets/tour-huayllay-bosque-de-piedras-003-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/plin-yape-4-150x68.png",
+      "local": "assets/plin-yape-4-150x68.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/logo-bancos-1-300x69.png",
+      "local": "assets/logo-bancos-1-300x69.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/gridtile_3x3.png",
+      "local": "assets/gridtile_3x3.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/huancayo.jpeg",
+      "local": "assets/huancayo.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/Canon-de-shutjo.jpg",
+      "local": "assets/Canon-de-shutjo-1.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/asjl.jpg",
+      "local": "assets/asjl.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;3&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-1.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COxygen%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CUbuntu%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.9.4",
+      "local": "assets/css-1.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/contactenos/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-2.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/territorio-huanca/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-3.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/agencia-de-viajes-y-turismos/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-4.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/agencia-de-viajes-y-turismos/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;3&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-5.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/logo-aerolineas-001-300x24.png",
+      "local": "assets/logo-aerolineas-001-300x24.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/logo-aerolineas-001.png",
+      "local": "assets/logo-aerolineas-001.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/avio.jpeg",
+      "local": "assets/avio.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/boletos-aereos/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-6.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/powerpack-elements/assets/lib/tooltipster/tooltipster.min.js?ver=2.3.6",
+      "local": "assets/tooltipster.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/powerpack-elements/assets/js/frontend.js?ver=2.3.6",
+      "local": "assets/frontend-1.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/cartagena-colombia.jpg",
+      "local": "assets/cartagena-colombia.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/colombia.jpg",
+      "local": "assets/colombia.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/iguazu-argentina.jpg",
+      "local": "assets/iguazu-argentina.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/cancun-mexico.jpg",
+      "local": "assets/cancun-mexico.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/punta-cana-0001.jpg",
+      "local": "assets/punta-cana-0001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/cartagena-colombia-300x200.jpg",
+      "local": "assets/cartagena-colombia-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/colombia-300x200.jpg",
+      "local": "assets/colombia-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/iguazu-argentina-300x200.jpg",
+      "local": "assets/iguazu-argentina-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/cancun-mexico-300x200.jpg",
+      "local": "assets/cancun-mexico-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/punta-cana-0001-300x200.jpg",
+      "local": "assets/punta-cana-0001-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/paquetes-turistico-internacional/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-7.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Huancavelica.jpg",
+      "local": "assets/Huancavelica.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/mancora.jpg",
+      "local": "assets/mancora.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Ayacucho.jpg",
+      "local": "assets/Ayacucho.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/lima.jpg",
+      "local": "assets/lima.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/arequipa.jpg",
+      "local": "assets/arequipa.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/ica.jpg",
+      "local": "assets/ica.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/chanchamayo.jpg",
+      "local": "assets/chanchamayo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/cuzco-0001.jpg",
+      "local": "assets/cuzco-0001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Huancavelica-300x200.jpg",
+      "local": "assets/Huancavelica-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/mancora-300x200.jpg",
+      "local": "assets/mancora-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Ayacucho-300x200.jpg",
+      "local": "assets/Ayacucho-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/lima-300x200.jpg",
+      "local": "assets/lima-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/arequipa-300x200.jpg",
+      "local": "assets/arequipa-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/ica-300x200.jpg",
+      "local": "assets/ica-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/chanchamayo-300x200.jpg",
+      "local": "assets/chanchamayo-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/cuzco-0001-300x200.jpg",
+      "local": "assets/cuzco-0001-300x200.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/paquetes-turistico-naciona/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-8.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?ver=1.2.0",
+      "local": "assets/e-gallery.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?ver=1.2.0",
+      "local": "assets/e-gallery.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/solati-territorio-huanca-300x180.png",
+      "local": "assets/solati-territorio-huanca-300x180.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/yaris-territorio-huanca-300x180.png",
+      "local": "assets/yaris-territorio-huanca-300x180.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/h1-territorio-huanca.png-300x180.png",
+      "local": "assets/h1-territorio-huanca.png-300x180.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/corolla-territorio-huanca-300x180.png",
+      "local": "assets/corolla-territorio-huanca-300x180.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/santa-fe-territorio-huanca-300x180.png",
+      "local": "assets/santa-fe-territorio-huanca-300x180.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/fuso-territorio-huanca-300x180.png",
+      "local": "assets/fuso-territorio-huanca-300x180.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/img-10023.jpg",
+      "local": "assets/img-10023.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/alquiler-de-vehiculos-turisticos/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-9.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/territorio-huanca-100034.jpg",
+      "local": "assets/territorio-huanca-100034.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/traslado-aeropuerto-huancayo-a-jauja/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-10.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/powerpack-elements/assets/lib/fancybox/jquery.fancybox.min.css?ver=2.3.6",
+      "local": "assets/jquery.fancybox.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css?ver=4.1.4",
+      "local": "assets/flatpickr.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor-pro/assets/css/widget-share-buttons.min.css",
+      "local": "assets/widget-share-buttons.min.css",
+      "tipo": "css"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/powerpack-elements/assets/lib/isotope/isotope.pkgd.min.js?ver=0.5.3",
+      "local": "assets/isotope.pkgd.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/powerpack-elements/assets/lib/fancybox/jquery.fancybox.min.js?ver=2.3.6",
+      "local": "assets/jquery.fancybox.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/powerpack-elements/assets/lib/tilt/tilt.jquery.min.js?ver=1.1.19",
+      "local": "assets/tilt.jquery.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/powerpack-elements/assets/lib/jquery-resize/jquery.resize.min.js?ver=0.5.3",
+      "local": "assets/jquery.resize.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/powerpack-elements/assets/lib/justified-gallery/jquery.justifiedGallery.min.js?ver=3.7.0",
+      "local": "assets/jquery.justifiedGallery.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js?ver=4.1.4",
+      "local": "assets/flatpickr.min.js",
+      "tipo": "js"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/logo-1000023.png",
+      "local": "assets/logo-1000023.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/plaza-constitucion-pl8yy5v6a586xv84mrqg8kxqssh3wk6p00d0a4x0vs.jpg",
+      "local": "assets/plaza-constitucion-pl8yy5v6a586xv84mrqg8kxqssh3wk6p00d0a4x0vs.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/cerrito-de-la-libertad-pn8ckbnbjl6r5av6mkf6gh2jijdtya8bqzsrjr3zqw.jpg",
+      "local": "assets/cerrito-de-la-libertad-pn8ckbnbjl6r5av6mkf6gh2jijdtya8bqzsrjr3zqw.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/torre-torre-pn8csofoakmiciq9u6fsmd61lu7adfefkck54aq0fs.jpg",
+      "local": "assets/torre-torre-pn8csofoakmiciq9u6fsmd61lu7adfefkck54aq0fs.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/parque-de-la-identidad-pn8cwc12vdmnhxf4hrbkbfykrs6ob1wuqfw4b1aw8o.jpg",
+      "local": "assets/parque-de-la-identidad-pn8cwc12vdmnhxf4hrbkbfykrs6ob1wuqfw4b1aw8o.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/parque-de-los-sombreros-pn8d8g66yi7p4ztlqzuggdwgekgzim0b2elezfc81k.jpg",
+      "local": "assets/parque-de-los-sombreros-pn8d8g66yi7p4ztlqzuggdwgekgzim0b2elezfc81k.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/parque-de-los-sombreros.jpg",
+      "local": "assets/parque-de-los-sombreros-1.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/parque-de-la-identidad.jpg",
+      "local": "assets/parque-de-la-identidad.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/torre-torre.jpg",
+      "local": "assets/torre-torre.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/cerrito-de-la-libertad.jpg",
+      "local": "assets/cerrito-de-la-libertad.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/pallares-plato-tipico-huancayo.jpg",
+      "local": "assets/pallares-plato-tipico-huancayo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/cuy-chacctado-huancayo.jpg",
+      "local": "assets/cuy-chacctado-huancayo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/mejores-platos-tipicos-de-huancayo.jpg",
+      "local": "assets/mejores-platos-tipicos-de-huancayo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/trucha-frita-huancayo.jpg",
+      "local": "assets/trucha-frita-huancayo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/platos-tipicos-huancayo.jpg",
+      "local": "assets/platos-tipicos-huancayo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/chaufa-de-trucha-huancayo.jpg",
+      "local": "assets/chaufa-de-trucha-huancayo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/siparexRecurso-3tuiter44.png",
+      "local": "assets/siparexRecurso-3tuiter44.png",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/city-tour-huancayo/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-11.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/city-tour-huancayo/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-12.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/taller-mates-burilados-piv30nfoi0wamki304dfunddy0w3lk50d2sd52n1rs.jpg",
+      "local": "assets/taller-mates-burilados-piv30nfoi0wamki304dfunddy0w3lk50d2sd52n1rs.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/hualhuas-maquina-textil-pncz0hy1sy0uaowbj7uc8vb53ypsqzr0li8q34gblk.jpg",
+      "local": "assets/hualhuas-maquina-textil-pncz0hy1sy0uaowbj7uc8vb53ypsqzr0li8q34gblk.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/ingenio-piv343idk5m573huvm06zs28cvwjtltku4wghlj2yg.jpg",
+      "local": "assets/ingenio-piv343idk5m573huvm06zs28cvwjtltku4wghlj2yg.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/santa-rosa-de-ocopa-tour-pncyl90axp5dyf1okmk7spty6xvfvr7ru195tj28jc.jpg",
+      "local": "assets/santa-rosa-de-ocopa-tour-pncyl90axp5dyf1okmk7spty6xvfvr7ru195tj28jc.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/kuh111-prpp2tuvho8a3nzzi069x6bu9k16twkbw3rooat67s.jpeg",
+      "local": "assets/kuh111-prpp2tuvho8a3nzzi069x6bu9k16twkbw3rooat67s.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/estatua-de-la-virgen-inmaculada-de-concepcion--pncym17gmq7zmpwpzyr0vips0i0gaobpxwtq7twfco.jpg",
+      "local": "assets/estatua-de-la-virgen-inmaculada-de-concepcion--pncym17gmq7zmpwpzyr0vips0i0gaobpxwtq7twfco.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/San-Jeronimo-de-tunan-piv3ejhthvwu74bpw4iyp56lz0fdcja7ltuoga1ltk.jpg",
+      "local": "assets/San-Jeronimo-de-tunan-piv3ejhthvwu74bpw4iyp56lz0fdcja7ltuoga1ltk.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/parque-de-los-mates-burilados.jpg",
+      "local": "assets/parque-de-los-mates-burilados.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/san-jeronimo-plateria-condor.jpg",
+      "local": "assets/san-jeronimo-plateria-condor.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/mates-burilados-cuy.jpg",
+      "local": "assets/mates-burilados-cuy.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/concepcion.jpg",
+      "local": "assets/concepcion.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/ingenio-trucha-llavero.jpg",
+      "local": "assets/ingenio-trucha-llavero.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/santa-rosa-de-ocopa-convento.jpg",
+      "local": "assets/santa-rosa-de-ocopa-convento.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/textil-hualhuas.jpg",
+      "local": "assets/textil-hualhuas.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/parque-de-los-mates-burilados-pileta.jpg",
+      "local": "assets/parque-de-los-mates-burilados-pileta.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-arqueologico-huancayo.jpg",
+      "local": "assets/tour-arqueologico-huancayo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-huancayo-cochas.jpg",
+      "local": "assets/tour-huancayo-cochas.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-concepcion.jpg",
+      "local": "assets/tour-concepcion.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-artesanal/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-13.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-artesanal/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-14.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Mirador-de-los-Shapis-Chupaca-piv2irk8gievpohcfw1zwnun131o4w4vkjwrej5q60.jpg",
+      "local": "assets/Mirador-de-los-Shapis-Chupaca-piv2irk8gievpohcfw1zwnun131o4w4vkjwrej5q60.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Arwaturo-piv2jra3o7rryv1gnbhtjeu5lq5m9e2odgp7n1orlk.jpg",
+      "local": "assets/Arwaturo-piv2jra3o7rryv1gnbhtjeu5lq5m9e2odgp7n1orlk.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Nahuinpuquio-piv2ka2vgwhif2a5ljmcxa3dhfkyjc5b41qx8kww54.jpg",
+      "local": "assets/Nahuinpuquio-piv2ka2vgwhif2a5ljmcxa3dhfkyjc5b41qx8kww54.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Chongos-Bajo-–-Cani-Cruz-pn8g2hjgv1w9h3ltx3oh4mxtwdjf3r3brg2ygs1ol4.jpg",
+      "local": "assets/Chongos-Bajo-_-Cani-Cruz-pn8g2hjgv1w9h3ltx3oh4mxtwdjf3r3brg2ygs1ol4.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/warivilca-piv2kvp5u3b3u3er3ays0mmz5amegdj4v0r39y0u60.jpg",
+      "local": "assets/warivilca-piv2kvp5u3b3u3er3ays0mmz5amegdj4v0r39y0u60.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/manantial-de-la-fidelidad-pn8g8c3bdxwhpr3zrmown5t2yopmzyb78e7pyrdhvc.jpg",
+      "local": "assets/manantial-de-la-fidelidad-pn8g8c3bdxwhpr3zrmown5t2yopmzyb78e7pyrdhvc.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/warivilca.jpg",
+      "local": "assets/warivilca.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Nahuinpuquio.jpg",
+      "local": "assets/Nahuinpuquio.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Mirador-de-los-Shapis-Chupaca.jpg",
+      "local": "assets/Mirador-de-los-Shapis-Chupaca.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Arwaturo.jpg",
+      "local": "assets/Arwaturo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Chongos-Bajo-–-Cani-Cruz.jpg",
+      "local": "assets/Chongos-Bajo-_-Cani-Cruz.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/manantial-de-la-fidelidad.jpg",
+      "local": "assets/manantial-de-la-fidelidad.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-arqueologico/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-15.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-arqueologico/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-16.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Mirador-Villa-Rica-001-pn80nvtmf4op7v75evdzg37vyx3wgwct6eybqcd1vc.jpg",
+      "local": "assets/Mirador-Villa-Rica-001-pn80nvtmf4op7v75evdzg37vyx3wgwct6eybqcd1vc.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Mirador-Villa-Rica-002-pn80qt3jokotc6y8c4w77cnii2p0ezyqww0phc0yig.jpg",
+      "local": "assets/Mirador-Villa-Rica-002-pn80qt3jokotc6y8c4w77cnii2p0ezyqww0phc0yig.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/000-proi63v819me9fsllag79zbdvlrr4u4iufvec16nqw.jpeg",
+      "local": "assets/000-proi63v819me9fsllag79zbdvlrr4u4iufvec16nqw.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/00-proi218ef41ny9pldj2eh0bh7huhs1yeaa3ngv82pk.jpeg",
+      "local": "assets/00-proi218ef41ny9pldj2eh0bh7huhs1yeaa3ngv82pk.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Tour-Cascada-el-Leon-Villa-Rica-001-pn80uhmsg7q8t7lpu86lgx7i9ejrkbkwf4065ckg54.jpg",
+      "local": "assets/Tour-Cascada-el-Leon-Villa-Rica-001-pn80uhmsg7q8t7lpu86lgx7i9ejrkbkwf4065ckg54.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/paseo-en-bote-laguna-el-oconal-1002-pj93cpi4mx65lhtddodngj4nbpzu6hffl7uwlsh0vs.jpg",
+      "local": "assets/paseo-en-bote-laguna-el-oconal-1002-pj93cpi4mx65lhtddodngj4nbpzu6hffl7uwlsh0vs.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/0000-proibjdnit21cbwlvmylolz9fr03lvooxbke5l4rso.jpg",
+      "local": "assets/0000-proibjdnit21cbwlvmylolz9fr03lvooxbke5l4rso.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Mirador-Villa-Rica-002.jpg",
+      "local": "assets/Mirador-Villa-Rica-002.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Mirador-Villa-Rica-001.jpg",
+      "local": "assets/Mirador-Villa-Rica-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Tour-Cascada-el-Leon-Villa-Rica-001.jpg",
+      "local": "assets/Tour-Cascada-el-Leon-Villa-Rica-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-villa-rica/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-17.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-villa-rica/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-18.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/santuario-de-la-virgen-de-Cocharcas-6x4-1-pitonvsw4fcrzhncajjd63ev6fsivrksgple26g5o8.jpg",
+      "local": "assets/santuario-de-la-virgen-de-Cocharcas-6x4-1-pitonvsw4fcrzhncajjd63ev6fsivrksgple26g5o8.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/la-casa-del-huacon-6x4-1-pitonr3p696cdfu61zi8bmlk7ifota24s2bynsn4jc.jpg",
+      "local": "assets/la-casa-del-huacon-6x4-1-pitonr3p696cdfu61zi8bmlk7ifota24s2bynsn4jc.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/la-fuente-de-trevi-6x4-1-pitonszdjx8x0nrfr0bhgm4hea6f8o9lgbmxmckc6w.jpg",
+      "local": "assets/la-fuente-de-trevi-6x4-1-pitonszdjx8x0nrfr0bhgm4hea6f8o9lgbmxmckc6w.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/wawi-wawi-6x4-1-pitonwqqb9e2b3lz51xzql6brtnw3goisu8vjgeri0.jpg",
+      "local": "assets/wawi-wawi-6x4-1-pitonwqqb9e2b3lz51xzql6brtnw3goisu8vjgeri0.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/tour-monumental-jauja-laguna-de-paca-pndcck2o8v6rt7l2bq4yoq832ckdxzjv9ku3oknxrs.jpg",
+      "local": "assets/tour-monumental-jauja-laguna-de-paca-pndcck2o8v6rt7l2bq4yoq832ckdxzjv9ku3oknxrs.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/tour-monumental-capilla-cristo-pobre-pndcanggdyku9ocqgeh74pjfp7ylc2zgo57nndhoe0.jpg",
+      "local": "assets/tour-monumental-capilla-cristo-pobre-pndcanggdyku9ocqgeh74pjfp7ylc2zgo57nndhoe0.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/plaza-de-armas-de-jauja-pn8hh607ch9tg7zozibc2cjix9qv49abqaceyuwj3s.jpg",
+      "local": "assets/plaza-de-armas-de-jauja-pn8hh607ch9tg7zozibc2cjix9qv49abqaceyuwj3s.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/jhfjh111111-prpos7ak83okudfojwt48cv8hqest3dkri92cokek8.jpeg",
+      "local": "assets/jhfjh111111-prpos7ak83okudfojwt48cv8hqest3dkri92cokek8.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/la-casa-del-huacon-6x4-1.jpg",
+      "local": "assets/la-casa-del-huacon-6x4-1.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-monumental-mito.jpg",
+      "local": "assets/tour-monumental-mito.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/wawi-wawi-6x4-1.jpg",
+      "local": "assets/wawi-wawi-6x4-1.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-monumental-wawi-wawi.jpg",
+      "local": "assets/tour-monumental-wawi-wawi.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/wawi-wawi-tour-huancayo.jpg",
+      "local": "assets/wawi-wawi-tour-huancayo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-monumental-fontana-de-trevi.jpg",
+      "local": "assets/tour-monumental-fontana-de-trevi.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/laguna-de-paca-corazon.jpg",
+      "local": "assets/laguna-de-paca-corazon.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/laguna-de-paca-sirena.jpg",
+      "local": "assets/laguna-de-paca-sirena.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/virgen-de-cocharcas-huancayo.jpg",
+      "local": "assets/virgen-de-cocharcas-huancayo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/plaza-vigen-de-cocharcas.jpg",
+      "local": "assets/plaza-vigen-de-cocharcas.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-virgen-de-cocharcas-huancayo.jpg",
+      "local": "assets/tour-virgen-de-cocharcas-huancayo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-orcotuna-virgen-de-cocharcas.jpg",
+      "local": "assets/tour-orcotuna-virgen-de-cocharcas.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-monumental/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-19.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-monumental/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-20.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/banos-termales-shutjo-1-pj8zj5scjovmnpm0k7z0l8odxvy7szdgof50g4ezeg.jpg",
+      "local": "assets/banos-termales-shutjo-1-pj8zj5scjovmnpm0k7z0l8odxvy7szdgof50g4ezeg.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Iglesia-Colonial-Canchayllo-001-pn80j9g6tgcy4vwtedh0or7atpvxmh0bjjhdsd7qgo.jpg",
+      "local": "assets/Iglesia-Colonial-Canchayllo-001-pn80j9g6tgcy4vwtedh0or7atpvxmh0bjjhdsd7qgo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/puya-raimondi-pj8zl8zfqfqkgiksd4h64pp9gpnkwrnzmrbuu9bhko.jpg",
+      "local": "assets/puya-raimondi-pj8zl8zfqfqkgiksd4h64pp9gpnkwrnzmrbuu9bhko.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Canon-de-shutjo-pj8zlvjkaglg75o0pe87sk0bpyke1i5jpuzicwe1fc.jpg",
+      "local": "assets/Canon-de-shutjo-pj8zlvjkaglg75o0pe87sk0bpyke1i5jpuzicwe1fc.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/corivinchos-prodfk1fzg5fojj1hkh4v0ohmqe6hx1u2ajrkm28qg.jpg",
+      "local": "assets/corivinchos-prodfk1fzg5fojj1hkh4v0ohmqe6hx1u2ajrkm28qg.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Puente-colgante-pj8zn5lnlcci01t48g4xoqdwtu9dio8e86yavghqyg.jpg",
+      "local": "assets/Puente-colgante-pj8zn5lnlcci01t48g4xoqdwtu9dio8e86yavghqyg.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Puente-colgante.jpg",
+      "local": "assets/Puente-colgante.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/puya-raimondi.jpg",
+      "local": "assets/puya-raimondi.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/banos-termales-shutjo-1.jpg",
+      "local": "assets/banos-termales-shutjo-1.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Canon-de-shutjo-1007.jpg",
+      "local": "assets/Canon-de-shutjo-1007.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Canon-de-shutjo-10004.jpg",
+      "local": "assets/Canon-de-shutjo-10004.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Canon-de-shutjo-1005.jpg",
+      "local": "assets/Canon-de-shutjo-1005.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Canon-de-shutjo-ruta-1.jpg",
+      "local": "assets/Canon-de-shutjo-ruta-1.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-canon-de-shutjo/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-21.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-canon-de-shutjo/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-22.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/sin-nombre-1-pj9013jgyvfm7tk0th3po7q21ljdp1l257bl57tins.jpg",
+      "local": "assets/sin-nombre-1-pj9013jgyvfm7tk0th3po7q21ljdp1l257bl57tins.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Tour-Canon-de-Ushco-001-pn8aeus6a550a9e5zkx3gitx0b7skboq3k74nrz2k8.jpg",
+      "local": "assets/Tour-Canon-de-Ushco-001-pn8aeus6a550a9e5zkx3gitx0b7skboq3k74nrz2k8.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/afwe-pj902vghvlv45az6g8qcdrlefssc8gmt1zols16qwo.jpg",
+      "local": "assets/afwe-pj902vghvlv45az6g8qcdrlefssc8gmt1zols16qwo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/sdfnm-pj903bfr3sgzmobyuxn025k8jclkvbe8s6ruxqj1yw.jpg",
+      "local": "assets/sdfnm-pj903bfr3sgzmobyuxn025k8jclkvbe8s6ruxqj1yw.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Tour-Puente-Calicanto-001-pn8aiauvc9uuusdxv2julnirf688sddakmb80av3qw.jpg",
+      "local": "assets/Tour-Puente-Calicanto-001-pn8aiauvc9uuusdxv2julnirf688sddakmb80av3qw.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/sin-nombre-1.jpg",
+      "local": "assets/sin-nombre-1.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/afwe.jpg",
+      "local": "assets/afwe.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/fsf.jpg",
+      "local": "assets/fsf.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Tour-Puente-Calicanto-001.jpg",
+      "local": "assets/Tour-Puente-Calicanto-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Tour-Canon-de-Ushco-001.jpg",
+      "local": "assets/Tour-Canon-de-Ushco-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-huancaya/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-23.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-huancaya/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-24.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-valle-del-perene/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-25.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/tour-tarmatambo-001-pn89a9552rk4smda2j4899o5a5c12zi46lr3ei69bs.jpg",
+      "local": "assets/tour-tarmatambo-001-pn89a9552rk4smda2j4899o5a5c12zi46lr3ei69bs.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Tour-Tarma-Perla-de-Los-Andes-002-pn89qb7vtvjh4t1layzscpsmm46rku91e2ypjod514.jpg",
+      "local": "assets/Tour-Tarma-Perla-de-Los-Andes-002-pn89qb7vtvjh4t1layzscpsmm46rku91e2ypjod514.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Santuario-del-Senor-de-Muruhuay-001-pn89giqen04y719lh8movoqrumg4ecdp1mbmkwvrug.jpg",
+      "local": "assets/Santuario-del-Senor-de-Muruhuay-001-pn89giqen04y719lh8movoqrumg4ecdp1mbmkwvrug.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/tour-Gruta-de-huagapo-001-pn89k1mm9mynqe59w9hbqaq01n2o9hdgj2e6d9nmig.jpg",
+      "local": "assets/tour-Gruta-de-huagapo-001-pn89k1mm9mynqe59w9hbqaq01n2o9hdgj2e6d9nmig.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/San-Pedro-de-Cajas-tejidos-001-pn89x1q8t4rgc79byvtj80ljvizgqqzsbf9zd2dkfs.jpg",
+      "local": "assets/San-Pedro-de-Cajas-tejidos-001-pn89x1q8t4rgc79byvtj80ljvizgqqzsbf9zd2dkfs.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Tour-Cachipozo-Tarma-002-pn8a3g0pbjipcnytm5d4owhhexge4le0v33xxuw43c.jpg",
+      "local": "assets/Tour-Cachipozo-Tarma-002-pn8a3g0pbjipcnytm5d4owhhexge4le0v33xxuw43c.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Tour-Cachipozo-Tarma-002.jpg",
+      "local": "assets/Tour-Cachipozo-Tarma-002.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/San-Pedro-de-Cajas-tejidos-001.jpg",
+      "local": "assets/San-Pedro-de-Cajas-tejidos-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-Gruta-de-huagapo-001.jpg",
+      "local": "assets/tour-Gruta-de-huagapo-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Santuario-del-Senor-de-Muruhuay-001.jpg",
+      "local": "assets/Santuario-del-Senor-de-Muruhuay-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-tarmatambo-001.jpg",
+      "local": "assets/tour-tarmatambo-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-tarma-perla-de-los-andes/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-26.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-tarma-perla-de-los-andes/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-27.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/11-prpmb8uffjwo2wnezyj6razslyv9cb82v7lsaygpfc.jpeg",
+      "local": "assets/11-prpmb8uffjwo2wnezyj6razslyv9cb82v7lsaygpfc.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/111-prpmgfwb7l0q9b3pnpdy1hsitn9aw2unwxfet0rd14.jpeg",
+      "local": "assets/111-prpmgfwb7l0q9b3pnpdy1hsitn9aw2unwxfet0rd14.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/1111-prpmmnlwe5iz0i2rde35ixc87cmns1is3ooz0vjnw8.jpeg",
+      "local": "assets/1111-prpmmnlwe5iz0i2rde35ixc87cmns1is3ooz0vjnw8.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/tour-Tunqui-Cueva-001-pn847jakk5fjxfrz0jt0kdkg7pxet44ie8f7053auw.jpg",
+      "local": "assets/tour-Tunqui-Cueva-001-pn847jakk5fjxfrz0jt0kdkg7pxet44ie8f7053auw.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/11111-prpmy80ehrczvr9wtw2vpi9fd1m9hyfvcxp2mge9bs.jpeg",
+      "local": "assets/11111-prpmy80ehrczvr9wtw2vpi9fd1m9hyfvcxp2mge9bs.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/tour-productos-lacteos-oxapampa-001-pn84h650m0mcxjs5r7qcmg1jewfupfdgpx5d38t12w.jpg",
+      "local": "assets/tour-productos-lacteos-oxapampa-001-pn84h650m0mcxjs5r7qcmg1jewfupfdgpx5d38t12w.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/tour-Plaza-de-Armas-de-oxapampa-001-pn84jypqxag1ftq2fx7fj8nuz4o4l1gqrqybfunwl4.jpg",
+      "local": "assets/tour-Plaza-de-Armas-de-oxapampa-001-pn84jypqxag1ftq2fx7fj8nuz4o4l1gqrqybfunwl4.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-Plaza-de-Armas-de-oxapampa-001.jpg",
+      "local": "assets/tour-Plaza-de-Armas-de-oxapampa-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-productos-lacteos-oxapampa-001.jpg",
+      "local": "assets/tour-productos-lacteos-oxapampa-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-oxapampa/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-28.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-oxapampa/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-29.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/tour-Pampas-de-Junin-pn7yyg3dpyl0deft5tctz3ca79x8d3geebwti9gek8.jpg",
+      "local": "assets/tour-Pampas-de-Junin-pn7yyg3dpyl0deft5tctz3ca79x8d3geebwti9gek8.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/tour-Plaza-de-Armas-de-Junin-001-pn7z1v88l99kmbgy6skyjq9o0r2bdg18j9dfdidtx4.jpg",
+      "local": "assets/tour-Plaza-de-Armas-de-Junin-001-pn7z1v88l99kmbgy6skyjq9o0r2bdg18j9dfdidtx4.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Tour-Lago-chinchaycocha-de-junin-001-pn7z54q2bjqexkqa4pdbpema9wz73lzonex4d3jmbc.jpg",
+      "local": "assets/Tour-Lago-chinchaycocha-de-junin-001-pn7z54q2bjqexkqa4pdbpema9wz73lzonex4d3jmbc.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/tour-huayllay-bosque-de-piedras-002-pn7ysiq0mkgx5x1qrr4ir36nct4wtsxbwztlkg8rso.jpg",
+      "local": "assets/tour-huayllay-bosque-de-piedras-002-pn7ysiq0mkgx5x1qrr4ir36nct4wtsxbwztlkg8rso.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/la-calera-prof7zv4ikd3m5xd7f8dsra3pos26wvdl8m3ziim60.jpeg",
+      "local": "assets/la-calera-prof7zv4ikd3m5xd7f8dsra3pos26wvdl8m3ziim60.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-Plaza-de-Armas-de-Junin-001.jpg",
+      "local": "assets/tour-Plaza-de-Armas-de-Junin-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Tour-Lago-chinchaycocha-de-junin-001.jpg",
+      "local": "assets/Tour-Lago-chinchaycocha-de-junin-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-Pampas-de-Junin.jpg",
+      "local": "assets/tour-Pampas-de-Junin.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-huayllay-bosque-de-piedras-002.jpg",
+      "local": "assets/tour-huayllay-bosque-de-piedras-002.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-huayllay-bosque-de-piedras/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-30.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-huayllay-bosque-de-piedras/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-31.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/g111111111-prpnp38bua51qi8yy05zh86qmj6yii3o1wzpg6k5h4.jpeg",
+      "local": "assets/g111111111-prpnp38bua51qi8yy05zh86qmj6yii3o1wzpg6k5h4.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/dvrf-pj90q8q1sbuqsb16zudfvday3nlulkeklnk6aoje7s.jpg",
+      "local": "assets/dvrf-pj90q8q1sbuqsb16zudfvday3nlulkeklnk6aoje7s.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/sdb-pj90ouwlq3yjoz1k2qu7p7vim8fe9lwsqszfv0l9dk.jpg",
+      "local": "assets/sdb-pj90ouwlq3yjoz1k2qu7p7vim8fe9lwsqszfv0l9dk.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/laguna-yanahucsha-pndeumxv7ai0fwqmbnvumzwchokplr5tnfj9d73ph4.jpg",
+      "local": "assets/laguna-yanahucsha-pndeumxv7ai0fwqmbnvumzwchokplr5tnfj9d73ph4.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/sdjo-pj90vgprr703abg4i3mtq1v4wpv9d14vzi1aa0snnc.jpg",
+      "local": "assets/sdjo-pj90vgprr703abg4i3mtq1v4wpv9d14vzi1aa0snnc.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/huaytapallana-flora-y-fauna-pndf6zjizxemzgst7i2dwdpdgxpbql6v0k3xd2shq0.jpg",
+      "local": "assets/huaytapallana-flora-y-fauna-pndf6zjizxemzgst7i2dwdpdgxpbql6v0k3xd2shq0.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/lihsd.jpg",
+      "local": "assets/lihsd.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/laguna-yanahucsha-1.jpg",
+      "local": "assets/laguna-yanahucsha-1.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/huaytapallana-flora-y-fauna-1.jpg",
+      "local": "assets/huaytapallana-flora-y-fauna-1.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/flora-nevado-huaytapallana.jpg",
+      "local": "assets/flora-nevado-huaytapallana.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-nevado-huaytapallana.jpg",
+      "local": "assets/tour-nevado-huaytapallana.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/nevado-huaytapallana-laguna.jpg",
+      "local": "assets/nevado-huaytapallana-laguna.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/nevado-huaytapallana-ofrenda-al-apu.jpg",
+      "local": "assets/nevado-huaytapallana-ofrenda-al-apu.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/nevado-huaytapallana-vizcacha.jpg",
+      "local": "assets/nevado-huaytapallana-vizcacha.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-huancayo-nevado-huaytapallana.jpg",
+      "local": "assets/tour-huancayo-nevado-huaytapallana.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/nevado-huaytapallana-muneco-de-nieve.jpg",
+      "local": "assets/nevado-huaytapallana-muneco-de-nieve.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/nevado-huaytapallana-fotos.jpg",
+      "local": "assets/nevado-huaytapallana-fotos.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/nevado-huaytapallana-diversion-asegurada.jpg",
+      "local": "assets/nevado-huaytapallana-diversion-asegurada.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/nevado-huaytapallana-turismo.jpg",
+      "local": "assets/nevado-huaytapallana-turismo.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/nevado-huaytapallana-trekking-abra.jpg",
+      "local": "assets/nevado-huaytapallana-trekking-abra.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/fauna-nevado-huaytapallana.jpg",
+      "local": "assets/fauna-nevado-huaytapallana.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-nevado-huaytapallana/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-32.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-nevado-huaytapallana/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-33.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/carpapata-mirador-po1f804x6vtur510rbdzvmz04j1b2uy783gnn12n5k.jpg",
+      "local": "assets/carpapata-mirador-po1f804x6vtur510rbdzvmz04j1b2uy783gnn12n5k.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Tour-Catarata-el-Tirol-001-pn8auzoflr87l9ydrk0j9g8s4fomp9qubfd78s1rqw.jpg",
+      "local": "assets/Tour-Catarata-el-Tirol-001-pn8auzoflr87l9ydrk0j9g8s4fomp9qubfd78s1rqw.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/elementor/thumbs/Tour-Comunidad-Nativa-Pampa-Michi-001-pn8ay4h2dvimahejgwrrkns3eo8ocy6mqxngtzej08.jpg",
+      "local": "assets/Tour-Comunidad-Nativa-Pampa-Michi-001-pn8ay4h2dvimahejgwrrkns3eo8ocy6mqxngtzej08.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/tour-plaza-de-armas-de-tarma-001.jpg",
+      "local": "assets/tour-plaza-de-armas-de-tarma-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/Tour-Catarata-el-Tirol-001.jpg",
+      "local": "assets/Tour-Catarata-el-Tirol-001.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-selva-central/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-34.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/tour-selva-central/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-35.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/wawi-wawi-1024x439.jpg",
+      "local": "assets/wawi-wawi-1024x439.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/img-10023-1024x439.jpg",
+      "local": "assets/img-10023-1024x439.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/huancayo-1024x390.jpeg",
+      "local": "assets/huancayo-1024x390.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/wawi-wawi-300x129.jpg",
+      "local": "assets/wawi-wawi-300x129.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/wawi-wawi-768x329.jpg",
+      "local": "assets/wawi-wawi-768x329.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/wawi-wawi.jpg",
+      "local": "assets/wawi-wawi.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/img-10023-300x129.jpg",
+      "local": "assets/img-10023-300x129.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/img-10023-768x329.jpg",
+      "local": "assets/img-10023-768x329.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/img-10023.jpg",
+      "local": "assets/img-10023-1.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/huancayo-300x114.jpeg",
+      "local": "assets/huancayo-300x114.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/huancayo-768x292.jpeg",
+      "local": "assets/huancayo-768x292.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/huancayo.jpeg",
+      "local": "assets/huancayo-1.jpeg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/blog/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-36.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/blog/agencias-turisticas-huancayo/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-37.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/catarata-bayos-11.jpg",
+      "local": "assets/catarata-bayos-11.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/villa-rica-1021.jpg",
+      "local": "assets/villa-rica-1021.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/oxapampa-10021.jpg",
+      "local": "assets/oxapampa-10021.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/oxapampa-10021.jpg",
+      "local": "assets/oxapampa-10021-1.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/oxapampa-10021-300x137.jpg",
+      "local": "assets/oxapampa-10021-300x137.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/galaxy/wp-content/uploads/oxapampa-10021-768x350.jpg",
+      "local": "assets/oxapampa-10021-768x350.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/blog/destinos-turisticos-selva-central/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-38.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/santuario-de-la-virgen-de-Cocharcas.jpg",
+      "local": "assets/santuario-de-la-virgen-de-Cocharcas.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/huaconada.jpg",
+      "local": "assets/huaconada.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/laguna-de-paca-jauja.jpg",
+      "local": "assets/laguna-de-paca-jauja.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/mates-burilados.jpg",
+      "local": "assets/mates-burilados.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/parque-mates-burilados.jpg",
+      "local": "assets/parque-mates-burilados.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://territoriohuanca.com/galaxy/wp-content/uploads/santa-rosa-de-ocopa-10021.jpg",
+      "local": "assets/santa-rosa-de-ocopa-10021.jpg",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/blog/destinos-turisticos-huancayo/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-39.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;xMidYMid meet&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 126 26&#039; fill=&#039;black&#039; stroke=&#039;none&#039;%3E%3Cpath d=&#039;M3,10.2c2.6,0,2.6,2,2.6,3.2S4.4,16.5,3,16.5s-3-1.4-3-3.2S0.4,10.2,3,10.2z M18.8,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.2-1.4-3.2-3.2S17,10.2,18.8,10.2z M34.6,10.2c1.5,0,2.6,1.4,2.6,3.2s-0.5,3.2-1.9,3.2c-1.5,0-3.4-1.4-3.4-3.2S33.1,10.2,34.6,10.2z M50.5,10.2c1.7,0,3.2,1.4,3.2,3.2s-1.4,3.2-3.2,3.2c-1.7,0-3.3-0.9-3.3-2.6S48.7,10.2,50.5,10.2z M66.2,10.2c1.5,0,3.4,1.4,3.4,3.2s-1.9,3.2-3.4,3.2c-1.5,0-2.6-0.4-2.6-2.1S64.8,10.2,66.2,10.2z M82.2,10.2c1.7,0.8,2.6,1.4,2.6,3.2s-0.1,3.2-1.6,3.2c-1.5,0-3.7-1.4-3.7-3.2S80.5,9.4,82.2,10.2zM98.6,10.2c1.5,0,2.6,0.4,2.6,2.1s-1.2,4.2-2.6,4.2c-1.5,0-3.7-0.4-3.7-2.1S97.1,10.2,98.6,10.2z M113.4,10.2c1.2,0,2.2,0.9,2.2,3.2s-0.1,3.2-1.3,3.2s-3.1-1.4-3.1-3.2S112.2,10.2,113.4,10.2z&#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-40.bin",
+      "tipo": "img"
+    },
+    {
+      "url": "https://www.territoriohuanca.com/tour-huancayo/&quot;data:image/svg+xml,%3Csvg xmlns=&#039;http://www.w3.org/2000/svg&#039; preserveAspectRatio=&#039;none&#039; overflow=&#039;visible&#039; height=&#039;100%&#039; viewBox=&#039;0 0 24 24&#039; fill=&#039;none&#039; stroke=&#039;black&#039; stroke-width=&#039;2&#039; stroke-linecap=&#039;square&#039; stroke-miterlimit=&#039;10&#039;%3E%3Cpolyline points=&#039;0,6 6,6 6,18 18,18 18,6 24,6 &#039;/%3E%3C/svg%3E&quot;",
+      "local": "assets/svg_xml__svg_xmlns__-41.bin",
+      "tipo": "img"
     }
   ]
 }

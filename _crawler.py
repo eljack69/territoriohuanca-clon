@@ -34,6 +34,20 @@ STYLE_BLOCK_PAT = re.compile(r'<style\b[^>]*>(.*?)</style>', re.I | re.S)
 URL_FUNC_PAT = re.compile(r'url\((?:["\']?)([^)"\']+)(?:["\']?)\)', re.I)
 LOC_PAT = re.compile(r'<loc>([^<]+)</loc>', re.I)
 
+# Atributos data-* y similares que pueden contener URLs de navegacion o assets
+# (Elementor / JetEngine / WooCommerce / OptimizePress / etc.)
+DATA_URL_ATTRS = (
+    "data-url", "data-href", "data-link", "data-permalink", "data-redirect",
+    "data-thumbnail", "data-src", "data-image", "data-poster", "data-bg",
+    "data-background", "data-background-image", "data-large_image",
+    "data-large-image", "data-zoom-image", "data-original", "data-lazy-src",
+    "data-elementor-lightbox-slideshow",
+)
+DATA_ATTR_PAT = re.compile(
+    r'\b(' + '|'.join(re.escape(a) for a in DATA_URL_ATTRS) + r')=(["\'])([^"\']+)\2',
+    re.I,
+)
+
 
 def fetch(url, as_text=True):
     req = Request(url, headers={"User-Agent": UA, "Referer": ROOT_URL})
@@ -234,6 +248,23 @@ all_assets = {}
 used_names = set(os.listdir(ASSETS_DIR))
 page_asset_tokens = {}
 
+# Cargar mapping previo desde manifest para mantener idempotencia
+prev_manifest_path = os.path.join(BASE_DIR, "clon-manifest.json")
+if os.path.exists(prev_manifest_path):
+    try:
+        with open(prev_manifest_path, encoding="utf-8") as f:
+            prev = json.load(f)
+        for entry in prev.get("assets", []):
+            absu = entry.get("url")
+            local = entry.get("local")
+            tipo = entry.get("tipo", "img")
+            if absu and local:
+                local_name = local.split("/")[-1]
+                if local_name in used_names:
+                    all_assets[absu] = (tipo, local)
+    except Exception as e:
+        print(f"  ! manifest previo no legible: {e}")
+
 for purl, html in page_html.items():
     tokens = []
     for absu, raw, tipo in extract_assets(html, purl):
@@ -322,6 +353,21 @@ def rewrite(html, page_url):
         return 'srcset="' + ", ".join(new_parts) + '"'
 
     out = IMG_SRCSET_PAT.sub(repl_srcset, out)
+
+    def repl_data_attr(m):
+        attr = m.group(1)
+        quote = m.group(2)
+        raw = m.group(3)
+        if raw.lower().startswith(("data:", "javascript:", "#")):
+            return m.group(0)
+        absu = urljoin(page_url, raw)
+        if absu in visited_pages and absu in page_html:
+            return f'{attr}={quote}{visited_pages[absu]}{quote}'
+        if absu in all_assets:
+            return f'{attr}={quote}{all_assets[absu][1]}{quote}'
+        return m.group(0)
+
+    out = DATA_ATTR_PAT.sub(repl_data_attr, out)
     return out
 
 
@@ -345,6 +391,10 @@ manifest = {
     "assetsReutilizados": skipped_existing,
     "erroresPaginas": [{"url": u, "error": e} for u, e in errors_pages],
     "erroresAssets": [{"url": u, "error": e} for u, e in asset_errors],
+    "assets": [
+        {"url": absu, "local": local_rel, "tipo": tipo}
+        for absu, (tipo, local_rel) in all_assets.items()
+    ],
 }
 with open(os.path.join(BASE_DIR, "clon-manifest.json"), "w", encoding="utf-8") as f:
     json.dump(manifest, f, ensure_ascii=False, indent=2)
